@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const url  = 'https://batman-server-b1j6mxocw-igorcavliuc.vercel.app/'
+const url  = 'https://batman-server-b1j6mxocw-igorcavliuc.vercel.app'
 export const getAllNavigate = () => {
   return fetch(url+"/navigation")
     .then((res) => res.json())
