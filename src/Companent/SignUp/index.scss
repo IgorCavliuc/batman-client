@@ -1,0 +1,74 @@
+.batman-ui--sign-up-content {
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+
+  & >*{
+    width: 50%;
+  }
+
+& form {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  margin: 0 auto;
+  h1 {
+    margin-bottom: 30px;
+  }
+
+  input {
+    border: none;
+    margin-top: 20px;
+    border-radius: 10px 10px 10px 10px;
+    padding: 0 15px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21px;
+    height: 40px;
+  }
+}
+  button {
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 15px;
+    color: white;
+    background-color: #3a48f5;
+    border: none;
+    border-radius: 15px 15px 15px 15px;
+    padding: 12px 73px 12px 73px;
+  }
+}
+
+.batman-ui--sign-up-image{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.batman-ui--sign-up-image img {
+  border-radius: 30px;
+height: 100%;
+}
+
+.batman-ui--submit-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+
+}
+
+.batman-ui--submit-button a {
+  color: #3a48f5;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  padding: 0 15px;
+}

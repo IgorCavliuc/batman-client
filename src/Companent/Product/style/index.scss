@@ -1,0 +1,8 @@
+.batman-store_product-list {
+  margin: 40px;
+  width: 100%;
+  &-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

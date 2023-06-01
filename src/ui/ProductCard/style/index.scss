@@ -1,0 +1,111 @@
+.batman-ui__card {
+  font-family: "Inter", sans-serif;
+  width: 100%;
+  height: 100%;
+  max-width: 210px;
+  max-height: 260px;
+  background: #ffffff;
+  border: 1px solid #f3f3f3;
+  box-shadow: 0px 5px 10px rgba(30, 114, 227, 0.12);
+  border-radius: 40px;
+  padding: 30px;
+  transition: 0.5s;
+  margin-right: 50px;
+  margin-bottom: 20px;
+  p {
+    margin: 0;
+    padding: 0;
+  }
+  h4 {
+    margin: 0;
+    padding: 0;
+  }
+
+  &_image {
+    width: 100%;
+    margin-bottom: 15px;
+    text-align: center;
+    height: 104px;
+    width: 140px;
+    object-fit: contain;
+    overflow: hidden;
+    margin: 0 auto;
+
+    & > img {
+      margin: 0 auto;
+      max-width: 100%;
+      max-height: 100%;
+      z-index: -5;
+      align-items: center;
+    }
+  }
+  &_info {
+    p {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+      margin-top: 5px;
+
+      white-space: nowrap; /* Запрещаем перенос строк */
+      overflow: hidden; /* Обрезаем все, что не помещается в область */
+      background: rgba(255, 145, 30, 0.1); /* Цвет фона */
+      padding: 5px; /* Поля вокруг текста */
+      text-overflow: ellipsis;
+      border-radius: 5px;
+    }
+    h4 {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 17px;
+      margin-top: 10px;
+    }
+  }
+  &_price {
+    margin-top: 15px;
+    display: flex;
+    & > p {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 17px;
+      color: #000000;
+
+      span {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 13px;
+        text-transform: uppercase;
+        color: #bdbdbd;
+        margin-right: 10px;
+      }
+    }
+    & > h4 {
+      color: #e95555;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 9px;
+      line-height: 10px;
+      display: flex;
+      align-items: start;
+    }
+  }
+  &_more-info {
+    margin-top: 15px;
+    height: 50px;
+    overflow: hidden;
+    & > p {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 17px;
+      color: #000000;
+    }
+  }
+}
+
+.batman-ui__card:hover {
+  box-shadow: 0px 14px 20px rgba(30, 114, 227, 0.12);
+}

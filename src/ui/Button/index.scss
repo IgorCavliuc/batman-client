@@ -1,0 +1,37 @@
+.batman-ui--button{
+
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 56px;
+  //box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.250929);
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 18px 43px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #11142d;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+  //box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.250929);
+
+  &:hover{
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.250929);
+  }
+
+  &--theme{
+    &-added{
+      border: 2px solid #2F3CED;
+      color: #2F3CED;
+
+    }
+    &-blue{
+      background-color: #2F3CED;
+      color: white;
+    }
+  }
+}

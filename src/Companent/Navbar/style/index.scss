@@ -1,0 +1,53 @@
+.batman-store {
+  width: 100%;
+  &__header{
+    &-button--active{
+      & .batman-ui--button--theme-added{
+        background-color: #2F3CED;
+        color: white;
+      }
+    }
+    &r-nonprofile {
+      margin: 40px;
+      padding: 10px;
+      box-sizing: border-box;
+      border: 1px solid transparent;
+      cursor: pointer;
+      transition: 0.5s;
+      & > a {
+        display: flex;
+        text-align: center;
+        cursor: pointer;
+        transition: 0.3s;
+        border-right: 1px solid transparent;
+        color: #11142d;
+        text-decoration: none;
+        align-items: center;
+        img {
+          margin-left: 5px;
+          width: 20px;
+          height: 20px;
+        }
+      }
+    }
+    &-container{
+      & .batman-ui--button{
+      box-sizing: border-box;
+        width: 90%;
+        margin: 0 auto 40px;
+      }
+      &_logo {
+        & > a {
+          & > img {
+            margin: 0 auto;
+            width: 150px;
+          }
+        }
+      }
+    }
+    &-nonprofile:hover {
+      border-bottom: 1px solid #11142d;
+      box-sizing: border-box;
+    }
+  }
+}

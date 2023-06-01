@@ -1,0 +1,27 @@
+.batman-store__header-profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 25px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.batman-store__header-profile_name {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #11142d;
+}
+
+.batman-store__header-profile_status {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+  color: #808191;
+}
+/*# sourceMappingURL=index.css.map */

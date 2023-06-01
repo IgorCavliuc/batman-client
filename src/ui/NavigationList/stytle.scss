@@ -1,0 +1,40 @@
+.batman-store {
+  &__header {
+    position: sticky;
+    height: 100vh;
+    // width: 256px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-right: 1px solid #e4e4e4;
+  }
+  &__header-container {
+    &_logo > a {
+      height: 178px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      & > p {
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 48px;
+        color: #11142d;
+
+        span {
+          color: #ff7c5d;
+        }
+      }
+    }
+    &_navigation {
+      width: 216px;
+      color: #808191;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 20px;
+
+      &-list {
+      }
+    }
+  }
+}

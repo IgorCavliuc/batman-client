@@ -1,0 +1,217 @@
+.batman-store-ui-select {
+  width: auto;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  color: #374957;
+  //position: relative;
+  outline: none;
+  padding: 0 25px 0 15px;
+
+  box-sizing: border-box;
+  height: 40px;
+  min-height: 30px;
+  border: 1px solid #dedede;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(55, 73, 87, 0.7);
+}
+
+.batman-store-ui-select--gray .batman-store-ui-select {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.batman-store-ui-select--wrapper.batman-store-ui-select--auto-type
+  .batman-store-ui-select--option--selected
+  img {
+  -webkit-filter: grayscale(1) brightness(1000%);
+  filter: grayscale(1) brightness(1000%);
+}
+
+.batman-store-ui-select:not(input) {
+  cursor: pointer;
+}
+
+.batman-store-ui-select--disabled .batman-store-ui-select {
+  opacity: 0.5;
+  cursor: no-drop;
+}
+
+input.batman-store-ui-select::placeholder,
+.batman-store-ui-select--placeholder {
+  color: #37495780;
+}
+
+.batman-store-ui-select img {
+  margin-right: 10px;
+}
+
+.batman-store-ui-select:focus {
+  border-color: rgba(30, 114, 227, 0.4);
+}
+
+.batman-store-ui-select--wrapper_unit-flex
+  > div
+  > .batman-store-ui-input--unit {
+  padding: 13px 0;
+}
+.batman-store-ui-select--wrapper_unit-flex
+  > div
+  > .batman-store-ui-select--angle--active {
+  right: 95px;
+}
+.batman-store-ui-select--wrapper_unit-flex
+  > div
+  > .batman-store-ui-select--angle {
+  right: 95px;
+}
+
+.batman-store-ui-select--wrapper_unit-flex
+  > div
+  > .batman-store-ui-input--unit {
+  position: absolute;
+  right: 0;
+}
+.batman-store-ui-select--angle {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 15px;
+  margin: auto;
+}
+.batman-store-ui-select--angle--active {
+  transform: rotate(180deg);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 15px;
+  margin: auto;
+}
+
+.batman-store-ui-select--wrapper {
+  position: relative;
+}
+
+.batman-store-ui-select--options {
+  padding: 0 10px;
+  position: absolute;
+  top: calc(100% + 5px);
+  left: 0;
+  right: 0;
+  border: 1px solid #dedede;
+  z-index: 3;
+  overflow: auto;
+  max-height: 250px;
+  background: #ffffff;
+  box-shadow: 0px 20px 30px -18px rgba(55, 73, 87, 0.15);
+  border-radius: 5px;
+}
+.batman-store-ui-select-flex {
+  display: flex;
+}
+.batman-store-ui-select--option {
+  min-height: 40px;
+
+  padding: 5px 5px;
+  background-color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  line-height: 17px;
+  color: #374957;
+  display: flex;
+  align-items: center;
+
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(55, 73, 87, 0.7);
+}
+
+.batman-store-ui-select--option .batman-store-ui-loader {
+  margin: 15px auto;
+}
+
+.batman-store-ui-select--options
+  .batman-store-ui-select--option.batman-store-ui-select--option--loading:hover {
+  background-color: #fff;
+}
+
+.batman-store-ui-select--option img {
+  margin-right: 10px;
+}
+
+.batman-store-ui-select--option:hover:not(
+    .batman-store-ui-select--option--selected
+  ),
+.batman-store-ui-select--option--active {
+  background-color: #e9f1fc;
+}
+
+.batman-store-ui-select--option--selected {
+  //background-color: #1e72e3;
+  //color: #ffffff;
+}
+
+.batman-store-ui-select--error .batman-store-ui-select {
+  border-color: rgb(255, 69, 69);
+}
+
+.batman-store-ui-select--error-message {
+  color: #ff5c5c;
+  font-size: 14px;
+}
+
+.batman-store-ui-select--option > span,
+.batman-store-ui-select > span {
+  overflow: hidden;
+  margin: 0 10px 0 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.batman-store-ui-select--wrapper_flex-valute {
+  //display: flex;
+  min-width: 80px;
+
+  .batman-store-ui-select {
+    background-color: transparent;
+
+    .batman-store-ui-select--angle {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 5px;
+      margin: auto;
+      width: 10px;
+    }
+    .batman-store-ui-select--angle--active {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 5px;
+      margin: auto;
+    }
+  }
+}
+
+.batman-store-ui-select--wrapper_flex-valute > .batman-store-ui-select {
+  border: none;
+  padding: 0 15px 0 5px;
+}
+.batman-store-ui-select--wrapper_flex-valute
+  > .batman-store-ui-select
+  > .batman-store-ui-select--angle {
+  right: 15px;
+}
+.batman-store-ui-select--wrapper_flex-valute
+  > .batman-store-ui-select
+  > .batman-store-ui-select--angle--active {
+  right: 15px;
+}
+
+.batman-store-ui-select--wrapper_flex-valute
+  > div
+  > .batman-store-ui-select--option
+  > span {
+  overflow: inherit;
+}

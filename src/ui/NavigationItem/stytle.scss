@@ -1,0 +1,41 @@
+.batman-store {
+  &__header-container {
+    &_navigation-list-item {
+      padding: 18px 26px 18px 0;
+
+      border-radius: 0px 12px 12px 0px;
+      display: flex;
+      text-align: center;
+      cursor: pointer;
+      transition: 0.3s;
+      border-right: 1px solid transparent;
+      color: #11142d;
+      text-decoration: none;
+
+      & > img {
+        margin-right: 18px;
+      }
+
+      &--active {
+        padding: 18px 26px 18px 0;
+
+        display: flex;
+        text-align: center;
+        cursor: pointer;
+        transition: 0.3s;
+        border-right: 1px solid transparent;
+        background: #2f3ced;
+        border-radius: 0px 12px 12px 0px;
+        color: #ffffff;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.batman-store__header-container_navigation-list-item:hover:not(
+    .batman-store__header-container_navigation-list-item--active
+  ) {
+  color: #11142d;
+  //background: rgba(47, 60, 237, 0.4);
+}

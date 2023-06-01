@@ -1,0 +1,12 @@
+.batman-store__benefits{
+  &-list{
+    width: 100%;
+      overflow: auto;
+    height: 400px;
+    &>*:not(:last-child){
+    margin-bottom: 10px;
+  }
+
+  }
+
+}

@@ -1,0 +1,43 @@
+.batman-store__header-container_navigation-list-item {
+  padding: 18px 26px 18px 0;
+  border-radius: 0px 12px 12px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border-right: 1px solid transparent;
+  color: #11142d;
+  text-decoration: none;
+}
+
+.batman-store__header-container_navigation-list-item > img {
+  margin-right: 18px;
+}
+
+.batman-store__header-container_navigation-list-item--active {
+  padding: 18px 26px 18px 0;
+
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border-right: 1px solid transparent;
+  background: #2f3ced;
+  border-radius: 0px 12px 12px 0px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.batman-store__header-container_navigation-list-item:hover:not(
+    .batman-store__header-container_navigation-list-item--active
+  ) {
+  color: #11142d;
+}
+
+/*# sourceMappingURL=stytle.css.map */
