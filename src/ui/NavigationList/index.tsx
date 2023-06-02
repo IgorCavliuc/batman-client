@@ -12,12 +12,12 @@ const { getAllNavigate } = require("../../server/index");
 // }
 
 const NavigationList = ({navigation, setAllNavigation}:any) => {
+
   useEffect(() => {
-if(navigation?.items?.length <1) {
     getAllNavigate()
         .then((res:any) => setAllNavigation(res));
-}
-  }, [navigation?.items, setAllNavigation]);
+
+  }, []);
   return (
     <nav className="batman-store__header-container_navigation">
       <ul className="batman-store__header-container_navigation-list">
