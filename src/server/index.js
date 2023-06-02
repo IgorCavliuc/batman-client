@@ -1,7 +1,7 @@
 import axios from "axios";
 
 
-const url = "https://batman-server.vercel.app:3000"
+const url = "https://batman-server.vercel.app"
 
 
 export const getAllNavigate = () => {
