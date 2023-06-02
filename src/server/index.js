@@ -1,19 +1,19 @@
 import axios from "axios";
 
-const url  = 'https://batman-server-b1j6mxocw-igorcavliuc.vercel.app'
+const url = "https://batman-server-qpvcc3a4w-igorcavliuc.vercel.app"
 export const getAllNavigate = () => {
-  return fetch(url+"/navigation")
+  return fetch(url + "/navigation")
     .then((res) => res.json())
     .then((res) => res);
 };
 export const getAllCategories = () => {
-  return fetch(url+"/categories")
+  return fetch(url + "/categories")
     .then((res) => res.json())
     .then((res) => res);
 };
 export const getAllProducts = async (categoryKey) => {
   try {
-    const response = await axios.get(url+"/products", {
+    const response = await axios.get(url + "/products", {
       params: {
         subcategory: categoryKey,
       },
@@ -27,7 +27,7 @@ export const getAllProducts = async (categoryKey) => {
 export const addPost = async (postData) => {
   try {
     const response = await axios.post(
-      url+"/create-post",
+      url + "/create-post",
       postData
     );
     return response;
@@ -43,7 +43,7 @@ export const getUser = async (login, password) => {
   //   password: password,
   // };
   try {
-    const response = await axios.get(url+"/users", {
+    const response = await axios.get(url + "/users", {
       params: {
         login: login,
         password: password,
