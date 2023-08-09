@@ -5,58 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcb89bec-99f5-40fa-9034-904220169266" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Companent/ProductDetail/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Companent/ProductDetail/style/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/BigLoader/style/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/Rating/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/0.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/1.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/1.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/10.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/10.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/11.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/11.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/12.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/12.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/2.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/2.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/3.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/3.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/4.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/4.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/5.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/5.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/6.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/6.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/7.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/7.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/8.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/8.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/9.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/9.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/tsconfig.tsbuildinfo" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/tsconfig.tsbuildinfo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Companent/AddPost/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Companent/AddPost/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Companent/Body/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Companent/Body/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Companent/Navbar/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Companent/Navbar/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Companent/Navbar/style/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Companent/Navbar/style/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Companent/Product/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Companent/Product/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Companent/Profile/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Companent/Profile/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Companent/SignIn/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Companent/SignIn/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Companent/SignUp/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Companent/SignUp/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Companent/SignUp/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Companent/SignUp/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/Products/productSlice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/Products/productSlice.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/User/userSlice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/User/userSlice.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/type.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/type.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/CategoriesItem/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/CategoriesItem/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/Input/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/Input/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/Input/style/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/Input/style/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/NavigationList/NavigationItem/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/NavigationList/NavigationItem/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/NavigationList/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/NavigationList/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/NavigationProfile/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/NavigationProfile/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/NavigationProfile/style/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/NavigationProfile/style/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/NavigationProfile/style/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/NavigationProfile/style/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/ProductCard/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/ProductCard/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/ProductCard/style/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/ProductCard/style/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/Select/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/Select/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +62,7 @@
       <workItem from="1691478147877" duration="403000" />
       <workItem from="1691478567991" duration="312000" />
       <workItem from="1691481005516" duration="154000" />
-      <workItem from="1691481223059" duration="43421000" />
+      <workItem from="1691481223059" duration="43948000" />
     </task>
     <servers />
   </component>
