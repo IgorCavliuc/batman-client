@@ -71,8 +71,8 @@ function App({ user, updateUser }: any) {
 
   // const accessToken =  sessionStorage.getItem('accessToken')
   useEffect(() => {
-    const userData = localStorage.getItem('userData')
-    const userObjectData = JSON.parse(userData??'')
+    const userData:any = localStorage.getItem('userData')
+    const userObjectData = JSON.parse(userData)
     updateUser(userObjectData)
   }, [updateUser]);
 
