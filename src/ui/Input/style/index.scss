@@ -47,7 +47,7 @@
 .agent-ui-input--error {
   color: #ff5c5c;
   font-size: 14px;
-  text-align: start;
+  text-align: flex-start;
 
   & > ul {
     padding-left: 17px;
@@ -95,7 +95,7 @@
 
 .agent-ui-input--error {
   border-color: rgb(255, 69, 69);
-  text-align: start;
+  text-align: flex-start;
 }
 
 .agent-ui-input--icon {

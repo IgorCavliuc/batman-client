@@ -13,6 +13,8 @@ import Input from "./Input";
 import Select from "./Select";
 import InputMedia from "./InputMedia";
 import TextArea from "./TextArea";
+import BigLoader from './BigLoader'
+import Rating from './Rating'
 
 export {
   NavigationItem,
@@ -30,4 +32,6 @@ export {
   Select,
   InputMedia,
   TextArea,
+  BigLoader,
+  Rating
 };

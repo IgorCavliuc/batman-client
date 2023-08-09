@@ -1,5 +1,4 @@
 import "./index.scss";
-import { Link } from "react-router-dom";
 
 interface CategoriesItemType {
   data: {
@@ -10,7 +9,7 @@ interface CategoriesItemType {
   };
 }
 const CategoriesItem = ({ data }: CategoriesItemType) => {
-  const { name, description, code } = data;
+  const { name, description } = data;
   return (
     <div className="batman-store--categories-item">
       <div className="batman-store--categories-item_container">

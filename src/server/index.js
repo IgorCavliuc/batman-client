@@ -1,7 +1,8 @@
 import axios from "axios";
 
 
-const url = "https://batman-server.vercel.app"
+const url = "http://localhost:3001"
+// const url = "https://batman-server.vercel.app"
 
 
 export const getAllNavigate = () => {
@@ -27,6 +28,17 @@ export const getAllProducts = async (categoryKey) => {
     return [];
   }
 };
+
+export const getIdProduct = async (id) => {
+
+  try {
+    const response = await axios.get(url + `/product/${id}` );
+    return response.data;
+  } catch (error) {
+    console.error(error);
+    return null;
+  }
+};
 export const addPost = async (postData) => {
   try {
     const response = await axios.post(
@@ -40,13 +52,27 @@ export const addPost = async (postData) => {
   }
 };
 
+export const addUser = async (postData) => {
+  try {
+    const headers = {
+      "Content-Type": "application/json",
+    };
+
+    const response = await axios.post(url + "/create-user", postData, { headers });
+    return response.data;
+  } catch (error) {
+    console.error(error);
+    return null;
+  }
+};
+
 export const getUser = async (login, password) => {
   // const params = {
   //   login: login,
   //   password: password,
   // };
   try {
-    const response = await axios.get(url + "/users", {
+    const response = await axios.get(url + "/register", {
       params: {
         login: login,
         password: password,
@@ -56,5 +82,15 @@ export const getUser = async (login, password) => {
   } catch (error) {
     console.error(error);
     return [];
+  }
+};
+
+
+export const signIn = async (data   ) => {
+  try {
+    const response = await axios.post('http://localhost:3001/api/login',  data );
+    return response.data;
+  } catch (error) {
+    console.error(error);
   }
 };

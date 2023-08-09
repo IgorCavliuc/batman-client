@@ -1,9 +1,7 @@
-// import AvatarIco from '../img/avatar 1.svg'
-// import ArrowIco from '../img/small-right.svg'
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./style/index.scss";
 import {connect} from "react-redux";
-import {getAllUser} from "../../Redux/User/userSlice";
+import { useCallback } from "react";
 
 interface NavigationProfileType{
   user:any
@@ -12,9 +10,15 @@ interface NavigationProfileType{
 
 
 const NavigationProfile = ({user}:NavigationProfileType) => {
-const {name, lastname, root,img} =user?.user[0]
+const {name, lastname, root,img} =user
+
+  const signOutChange = useCallback(()=>{
+    sessionStorage.removeItem("accessToken")
+      window.location.reload()
+  },[])
   return (
-      <Link to='/profile' >
+    <div className='batman-store__header-profile--wallpaper'>
+      <NavLink to='/profile' >
     <div className="batman-store__header-profile">
       <div className="batman-store__header-profile-img">
       <img src={img} alt="AvatarIco"/>
@@ -25,14 +29,15 @@ const {name, lastname, root,img} =user?.user[0]
       </div>
       {/*<img src={ArrowIco} alt="ArrowIco"/>*/}
     </div>
-    </Link >
+    </NavLink >
+      <p onClick={signOutChange} className='batman-store__header-profile--signout'>SignOut</p>
+</div>
   );
 };
 
 
 
 const mapStateToProps = (state: any) => ({
-  user: state?.userSlice,
 });
 
 export default connect(mapStateToProps, )(NavigationProfile);

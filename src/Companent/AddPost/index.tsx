@@ -1,5 +1,5 @@
 import "./index.scss";
-import { Input, InputMedia, MainTitle, Select, TextArea } from "../../ui";
+import {  InputMedia, MainTitle, Select, TextArea } from "../../ui";
 import { useEffect } from "react";
 import { addPost, getAllCategories } from "../../server/index.js";
 import CategoriesItem from "../../ui/CategoriesItem";
@@ -20,7 +20,7 @@ const AddPost = ({
 }: any) => {
   useEffect(() => {
     getAllCategories().then((res) => setAllCategory(res));
-  }, []);
+  }, [setAllCategory]);
   const navigate = useNavigate();
 
   const initialValues = currentCategory?.form?.reduce(

@@ -17,7 +17,7 @@ const NavigationList = ({navigation, setAllNavigation}:any) => {
     getAllNavigate()
         .then((res:any) => setAllNavigation(res));
 
-  }, []);
+  }, [setAllNavigation]);
   return (
     <nav className="batman-store__header-container_navigation">
       <ul className="batman-store__header-container_navigation-list">

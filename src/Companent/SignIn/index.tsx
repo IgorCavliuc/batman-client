@@ -1,11 +1,10 @@
-import React, { useCallback } from "react";
 import "./SignIn.scss";
 import { Link } from "react-router-dom";
 import { useForm } from "react-hook-form";
 import { connect } from "react-redux";
 import { getAllUser } from "../../Redux/User/userSlice";
-import { getUser } from "../../server";
 import { Button } from "../../ui";
+import { signIn } from "../../server";
 const AsigAdmin = require("../ico/mainlogo.png");
 
 type FormValues = {
@@ -26,28 +25,15 @@ const SignIn: React.FC<SignInProps> = ({ getAllUser }) => {
     mode: "onChange",
   });
 
-  const onSubmit = useCallback(
-    async (data: FormValues) => {
-      try {
-        const res = await getUser(data?.login, data?.password);
-        getAllUser(res);
-
-        const dataUser = {
-          login: data?.login,
-          password: data?.password,
-          expires: new Date().getTime() + 5000,
-        };
-
-        if (!sessionStorage.getItem("users")) {
-          sessionStorage.setItem("users", JSON.stringify(dataUser));
-          window.location.href = "/";
-        }
-      } catch (error) {
-        console.error(error);
+  const onSubmit = async (data:any) => {
+    signIn(data).then(res=> {
+      if(res.app_code === "ACCESS_TOKEN") {
+        sessionStorage.setItem("accessToken", res.token)
+        localStorage.setItem("userData", JSON.stringify(res.data))
+        window.location.reload();
       }
-    },
-    [getAllUser]
-  );
+    })
+  };
 
   return (
     <div className="batman-ui--sign-in-content content ">
@@ -58,6 +44,7 @@ const SignIn: React.FC<SignInProps> = ({ getAllUser }) => {
             required: "Login is a required field!",
             pattern: {
               value:
+              // eslint-disable-next-line
                 /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/,
               message: "Please enter a valid login.",
             },

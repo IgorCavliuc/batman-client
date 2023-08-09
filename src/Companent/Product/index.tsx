@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { connect } from "react-redux";
 import { useLocation } from "react-router-dom";
 import { MainTitle, ProductCard } from "../../ui";
@@ -6,6 +6,7 @@ import { getAllProduct } from "../../Redux/Products/productSlice";
 import { IProduct } from "../../type";
 import { getAllProducts } from "../../server";
 import "./style/index.scss";
+import BigLoader from "../../ui/BigLoader";
 
 interface Props {
   items: IProduct[];
@@ -15,22 +16,29 @@ interface Props {
 
 const Product = ({ items, getAllProduct, name }: Props) => {
   const location = useLocation();
+  const [loading, setLoading] = useState(false)
 
   useEffect(() => {
     const fetchData = async () => {
+      setLoading(true)
       const res = await getAllProducts(name);
-      getAllProduct(res);
+      if(res) {
+        getAllProduct(res);
+        setLoading(false)
+      }
+
     };
     fetchData();
-  }, [getAllProduct, location?.pathname]);
+  }, [getAllProduct,name,  location?.pathname]);
 
   return (
     <div className="batman-store_product-list">
       <MainTitle>{` According to your request, we found the following ${name?.toUpperCase()}`}</MainTitle>
       <div className="batman-store_product-list-wrapper">
-        {items?.map((item, i) => {
+        {!loading ?   items?.map((item, i) => {
           return <ProductCard {...item} key={i} />;
-        })}
+        }) : <div style={{width:"100%"}}><BigLoader children={"Loader..."} theme={"blue"} /> </div>  }
+
       </div>
     </div>
   );

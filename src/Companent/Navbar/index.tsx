@@ -19,6 +19,7 @@ const NonProfile = () => {
 };
 
 const Navbar = ({ user }: any) => {
+
   return (
     <div className="batman-store__header">
       <div className="batman-store__header-container">
@@ -42,13 +43,13 @@ const Navbar = ({ user }: any) => {
         </NavLink>
         <NavigationList />
       </div>
-      {user.user[0] ? <NavigationProfile /> : <NonProfile />}
+      {user? <NavigationProfile user={user}/> : <NonProfile />}
     </div>
   );
 };
 
 const mapStateToProps = (state: any) => ({
-  user: state?.userSlice,
+  user: state?.userSlice.user,
 });
 
 export default connect(mapStateToProps)(Navbar);

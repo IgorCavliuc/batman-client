@@ -1,5 +1,4 @@
 import "./stytle.scss";
-import { useState } from "react";
 import { INavigationType } from "../../../type";
 import { NavLink } from "react-router-dom";
 
@@ -8,7 +7,7 @@ interface PropNavigation {
 }
 
 const NavigationItem = ({ item }: PropNavigation) => {
-  const { code, img, value, url } = item;
+  const { img, value, url } = item;
 
   return (
     <NavLink

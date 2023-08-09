@@ -2,20 +2,20 @@ import { useState, useRef, useEffect, useCallback, ChangeEvent } from "react";
 import ClassName from "classnames";
 import "./index.scss";
 
-interface IOption {
-  id: string;
-  src?: string;
-  value: string;
-}
+// interface IOption {
+//   id: string;
+//   src?: string;
+//   value: string;
+// }
 
-interface IOptionType {
-  option: IOption;
-  active: boolean;
-  subType?: string;
-  selected: boolean;
-  onChange: (e: IOption) => void;
-  setCheckboxValue?: (e: any) => void;
-}
+// interface IOptionType {
+//   option: IOption;
+//   active: boolean;
+//   subType?: string;
+//   selected: boolean;
+//   onChange: (e: IOption) => void;
+//   setCheckboxValue?: (e: any) => void;
+// }
 
 const Option = ({
   subType,
@@ -104,32 +104,32 @@ const Option = ({
   );
 };
 
-interface ISelectType {
-  index?: string;
-  theme?: string;
-  type?: string;
-  placeholder?: string;
-  searchValue?: string;
-  message?: string;
-  onBlur?: (e: string) => void | null;
-  onChangeSearch?: (e: string) => void;
-  value?: {
-    id?: string;
-    src?: string;
-    value?: string;
-  } | null;
-  options?: IOption[];
-  onChange?: (e: IOption | null) => void | null;
-  className?: any;
-  disabled?: boolean;
-  // disabledClick?:()=>void,
-  loading?: boolean;
-  error?: boolean;
-  noOption?: string;
-  unit?: string;
-  subType?: string;
-  setCheckboxValue?: (e: any) => void;
-}
+// interface ISelectType {
+//   index?: string;
+//   theme?: string;
+//   type?: string;
+//   placeholder?: string;
+//   searchValue?: string;
+//   message?: string;
+//   onBlur?: (e: string) => void | null;
+//   onChangeSearch?: (e: string) => void;
+//   value?: {
+//     id?: string;
+//     src?: string;
+//     value?: string;
+//   } | null;
+//   options?: IOption[];
+//   onChange?: (e: IOption | null) => void | null;
+//   className?: any;
+//   disabled?: boolean;
+//   // disabledClick?:()=>void,
+//   loading?: boolean;
+//   error?: boolean;
+//   noOption?: string;
+//   unit?: string;
+//   subType?: string;
+//   setCheckboxValue?: (e: any) => void;
+// }
 
 const Select = ({
   index,
@@ -158,7 +158,7 @@ const Select = ({
   const select = useRef<HTMLInputElement | null>(null);
 
   const [open, setOpen] = useState(false);
-  const [focus, setFocus] = useState(false);
+  const [focus] = useState(false);
   const [selectGray, setSelectGray] = useState(false);
   const [keyIndex, setKeyIndex] = useState(-1);
   const handleChange = (selectedOption: any) => {
@@ -204,7 +204,7 @@ const Select = ({
     if (type === "search" && !value) {
       setOpen(true);
     }
-  }, [type, value, subType]);
+  }, [type,  value, ]);
 
   // const handleBlur = useCallback(() => {
   //   setFocus(false);
