@@ -70,11 +70,11 @@ function App({ user, updateUser }: any) {
   const sectionPath = location?.pathname?.split("section")?.[1]?.split("/")[1];
 
   // const accessToken =  sessionStorage.getItem('accessToken')
-  useEffect(() => {
-    const userData = localStorage.getItem('userData')
-    const userObjectData = JSON.parse(userData??'')
-    updateUser(userObjectData)
-  }, [updateUser]);
+  // useEffect(() => {
+  //   const userData = localStorage.getItem('userData')
+  //   const userObjectData = JSON.parse(userData??'')
+  //   updateUser(userObjectData)
+  // }, [updateUser]);
 
 
   return (
