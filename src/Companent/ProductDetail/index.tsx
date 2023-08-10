@@ -35,7 +35,7 @@ const ProductDetail =()=>{
 
         <div className='batman-store__produc--info'>
           {selectProduct?.title ? <h1>{selectProduct?.title}</h1>:null}
-          {selectProduct?.rating ? <p>Reating:  <Rating value={selectProduct?.rating}/>  {selectProduct?.rating}</p>:null}
+          {selectProduct?.rating ? <p>Reating:  <Rating value={selectProduct?.rating}/></p>:null}
           {selectProduct?.price ? <><p>Price {selectProduct?.price}MDL  <span>-{selectProduct?.discount?.value}{selectProduct?.discount?.type}</span></p> </>:null}
           <div className='batman-store__produc--info-more'>
             {selectProduct?.brand?<div className='batman-store__produc--info-data'><p>Brand:</p> <h4>{selectProduct?.brand}</h4> </div>:null}
