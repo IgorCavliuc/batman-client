@@ -88,7 +88,7 @@ export const getUser = async (login, password) => {
 
 export const signIn = async (data   ) => {
   try {
-    const response = await axios.post('http://localhost:3001/api/login',  data );
+    const response = await axios.post('/api/login',  data );
     return response.data;
   } catch (error) {
     console.error(error);
