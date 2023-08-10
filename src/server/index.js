@@ -1,20 +1,19 @@
 import axios from "axios";
 
-
-// const url = "http://localhost:3001"
-const url = "https://batman-server.vercel.app"
-
+const url = "https://batman-server.vercel.app";
 
 export const getAllNavigate = () => {
   return fetch(url + "/navigation")
     .then((res) => res.json())
     .then((res) => res);
 };
+
 export const getAllCategories = () => {
   return fetch(url + "/categories")
     .then((res) => res.json())
     .then((res) => res);
 };
+
 export const getAllProducts = async (categoryKey) => {
   try {
     const response = await axios.get(url + "/products", {
@@ -30,21 +29,18 @@ export const getAllProducts = async (categoryKey) => {
 };
 
 export const getIdProduct = async (id) => {
-
   try {
-    const response = await axios.get(url + `/product/${id}` );
+    const response = await axios.get(url + `/product/${id}`);
     return response.data;
   } catch (error) {
     console.error(error);
     return null;
   }
 };
+
 export const addPost = async (postData) => {
   try {
-    const response = await axios.post(
-      url + "/create-post",
-      postData
-    );
+    const response = await axios.post(url + "/create-post", postData);
     return response;
   } catch (error) {
     console.error(error);
@@ -66,31 +62,14 @@ export const addUser = async (postData) => {
   }
 };
 
-export const getUser = async (login, password) => {
-  // const params = {
-  //   login: login,
-  //   password: password,
-  // };
+export const signIn = async (data) => {
   try {
-    const response = await axios.get(url + "/register", {
-      params: {
-        login: login,
-        password: password,
-      },
-    });
+    const response = await axios.post(url + '/api/login', data);
     return response.data;
   } catch (error) {
     console.error(error);
-    return [];
+    return null;
   }
 };
 
-
-export const signIn = async (data   ) => {
-  try {
-    const response = await axios.post('/api/login',  data );
-    return response.data;
-  } catch (error) {
-    console.error(error);
-  }
-};
+// Ваша функция getUser тоже требует исправлений, чтобы использовать правильный метод (например, POST), но для этого мне нужно больше контекста.
