@@ -107,3 +107,18 @@
 //   position: absolute;
 //   left: 10px;
 // }
+
+@media only screen and (max-width: 960px) {
+
+  .batman-store__banner > img,
+  .carousel-control-next,
+  .carousel-control-prev{
+    display: none;
+  }
+
+  .batman-store__banner{
+    justify-content: center;
+    padding: 0;
+    height: 230px;
+  }
+}

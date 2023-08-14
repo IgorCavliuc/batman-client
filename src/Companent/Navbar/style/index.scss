@@ -55,7 +55,6 @@
 
 .batman-store__header--menu{
   display: none;
-  width: 100%;
   padding: 10px;
 }
 @media only screen and (max-width: 1100px) {
@@ -71,6 +70,8 @@ display: none;
     top: 0;
     left: 0;
     z-index: 21;
-    cursor: pointer
+    cursor: pointer;
+    width: 100%;
+    background: white;
   }
 }
