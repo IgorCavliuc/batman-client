@@ -1,7 +1,8 @@
 import axios from "axios";
 
-// const url = "https://batman-server.vercel.app";
-const url= "http://localhost:3000"
+
+const local = window.location.href.includes('localhost')
+const url = local ? "http://localhost:3000" : "https://batman-server.vercel.app";
 export const getAllNavigate = () => {
   return fetch(url + "/navigation")
     .then((res) => res.json())
