@@ -1,5 +1,6 @@
 .batman-store {
   width: 100%;
+  transition: .3s;
   &__header{
     &-button--active{
       & .batman-ui--button--theme-added{
@@ -52,8 +53,24 @@
   }
 }
 
-@media only screen and (max-width: 960px) {
-  .batman-store__header {
-    display: none;
+.batman-store__header--menu{
+  display: none;
+  width: 100%;
+  padding: 10px;
+}
+@media only screen and (max-width: 1100px) {
+  .batman-store__header:not(.batman-store__header--open) > * {
+display: none;
+    z-index: 20;
+    padding-right: 50px;
+
+  }
+  .batman-store__header--menu{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 21;
+    cursor: pointer
   }
 }

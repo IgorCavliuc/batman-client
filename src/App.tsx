@@ -23,7 +23,8 @@ interface DecodedToken {
   exp: number;
 }
 
-export const AuthorisedAccount = ({ component }: any) => {
+export const Authorised = ({ component }: any) => {
+  const location = useLocation()
 
   useEffect(() => {
     const accessToken = sessionStorage.getItem('accessToken');
@@ -42,73 +43,66 @@ export const AuthorisedAccount = ({ component }: any) => {
       }
     }
   }, []);
-
-
-  const accessToken =  sessionStorage.getItem('accessToken')
-  return accessToken ? (
-    <div className="batman-store">
-      <Navbar />
-      {component}
-    </div>
-  ) : (
-    <Navigate to={"/signin"} />
-  );
-};
-export const NotAuthorisedAccount = ({ component }: any) => {
-  const login = sessionStorage.getItem("accessToken") ?? "";
+  const sectionPath = location?.pathname?.split("section")?.[1]?.split("/")[1];
 
   return (
     <div className="batman-store">
-      {!login ? component : <Navigate to={"/"} />}
+      <Navbar />
+      <Routes>
+        <Route path="*" element={<Navigate to="/" />} />
+      <Route path="/" element={ <Body />} />
+      <Route
+        path="/profile"
+        element={ <Profile />} />
+      <Route
+        path="/create-post"
+        element={ <AddPost />} />
+      <Route
+        path={"/section/" + sectionPath}
+        element={
+           <Product name={sectionPath} />}
+      />
+      <Route path={`/section/${sectionPath}/:productId`} element={<ProductDetail  />}
+      />
+    </Routes>
+    </div>
+  )
+};
+export const Unauthorised = ({ component }: any) => {
+  return (
+    <div className="batman-store">
+      <Routes>
+        <Route
+          path="/signin"
+          element={<SignIn />}
+        />
+        <Route
+          path="/signup"
+          element={<SignUp />}
+        />
+        <Route path="*" element={<Navigate to="signin" />} />
+
+      </Routes>
     </div>
   );
 };
 
 function App({ user, updateUser }: any) {
-  const location = useLocation();
+  const accessToken =  sessionStorage.getItem('accessToken')
 
-  const sectionPath = location?.pathname?.split("section")?.[1]?.split("/")[1];
-
-  // const accessToken =  sessionStorage.getItem('accessToken')
   useEffect(() => {
     const userData:any = localStorage.getItem('userData')
     const userObjectData = JSON.parse(userData)
     updateUser(userObjectData)
   }, [updateUser]);
 
+  const Page = accessToken ? Authorised : Unauthorised
 
   return (
     <div className="batman-store">
-      <Routes>
-        <Route
-          path="/signin"
-          element={<NotAuthorisedAccount component={<SignIn />} />}
-        />
-        <Route
-          path="/signup"
-          element={<NotAuthorisedAccount component={<SignUp />} />}
-        />
 
-        <Route path="/" element={<AuthorisedAccount component={<Body />} />} />
-        <Route
-          path="/profile"
-          element={<AuthorisedAccount component={<Profile />} />}
-        />
-        <Route
-          path="/create-post"
-          element={<AuthorisedAccount component={<AddPost />} />}
-        />
-        <Route
-          path={"/section/" + sectionPath}
-          element={
-            <AuthorisedAccount component={<Product name={sectionPath} />} />
-          }
-        />
-        <Route path={`/section/${sectionPath}/:productId`} element={
-          <AuthorisedAccount component={<ProductDetail  />} />
-        }
-               />
-      </Routes>
+<Page/>
+
     </div>
   );
 }
