@@ -46,6 +46,7 @@ background-color: white;
   .batman-store {
     &__header {
       position: fixed;
+      border: none;
       &--open{
       padding-right: 20px;
       }
