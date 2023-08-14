@@ -23,3 +23,10 @@ code {
 .batman-store {
   display: flex;
 }
+
+@media only screen and (max-width: 1400px) {
+  .batman-ui--sign-in-image.batman-ui--sign-in-image,
+  .batman-ui--sign-up-image.batman-ui--sign-up-image{
+    display: none;
+  }
+}
