@@ -1,0 +1,196 @@
+.rapidmd_cabinet__header {
+    position: fixed;
+    height: 70px;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid #E3E3E3;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 50px;
+    background: #fff;
+}
+
+.rapidmd_cabinet__header button {
+    cursor: pointer;
+}
+
+a.rapidmd_cabinet__header__language {
+    color: #374957;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.rapidmd_cabinet__header__new_policy {
+    min-height: 38px;
+    background-color: rgba(46, 135, 255, 0.10);
+    border-radius: 25px;
+    border: 0;
+    display: flex;
+    align-items: center;
+    padding: 4px 25px 4px 12px;
+    color: #0E8BFD;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    box-sizing: border-box;
+    margin-right: 20px;
+}
+
+.rapidmd_cabinet__header__new_policy svg {
+    margin-right: 8px;
+}
+
+.rapidmd_cabinet__header__notifications {
+    position: relative;
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+    margin-right: 20px;
+}
+
+.rapidmd_cabinet__header__notifications__length {
+    min-width: 16px;
+    height: 16px;
+    position: absolute;
+    background-color: #FF565C;
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    padding: 0;
+    border-radius: 50%;
+    right: 2px;
+    padding: 0 4px;
+    box-sizing: border-box;
+}
+
+.rapidmd_cabinet__header__basket {
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+    margin-right: 20px;
+}
+
+.rapidmd_cabinet__header__user {
+    width: 44px;
+    height: 44px;
+    border: 0;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #FFB13C;
+}
+
+.rapidmd_cabinet__menu {
+    width: 270px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    border-right: 1px solid #E3E3E3;
+}
+
+.rapidmd_cabinet__menu__logo_content {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    border-bottom: 1px solid #E3E3E3;
+}
+.rapidmd_cabinet__menu__logo_content >a{
+    font-size: 30px;
+    line-height: 30px;
+    color: #11142D;
+    font-weight: 700;
+}
+.rapidmd_cabinet__menu__logo_content >a>span{
+color: #FFB13C;
+    font-size: 40px;
+}
+
+.rapidmd_cabinet__menu nav {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 15px 0 15px;
+}
+
+.rapidmd_cabinet__menu nav .rapidmd_cabinet__menu__item {
+    display: flex;
+    min-height: 50px;
+    align-items: center;
+    padding: 5px 15px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    color: #374957;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.rapidmd_cabinet__menu nav .rapidmd_cabinet__menu__item svg {
+    margin-right: 15px;
+}
+
+.rapidmd_cabinet__menu nav .rapidmd_cabinet__menu__item_active {
+    background-color: #E3EDFC;
+    color: #1E72E3;
+}
+
+.rapidmd_cabinet__menu__footer {
+    margin-top: auto;
+    padding: 15px 30px;
+    border-top:1px solid #E3E3E3;
+}
+
+.rapidmd_cabinet__menu__footer h4 {
+    color: #9E9E9E;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 12.5px;
+}
+
+.rapidmd_cabinet__menu__footer button {
+    border: 0;
+    background-color: transparent;
+    padding: 0;
+    color: #374957;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.rapidmd_cabinet__menu__footer button svg {
+    margin-right: 15px;
+}
+
+.rapidmd_cabinet__content {
+    margin-top: 80px;
+    margin-left: 280px;
+}

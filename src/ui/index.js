@@ -15,6 +15,7 @@ import InputMedia from "./InputMedia";
 import TextArea from "./TextArea";
 import BigLoader from './BigLoader'
 import Rating from './Rating'
+import LanguageSwitcher from "./LanguageSwitcher";
 
 export {
   NavigationItem,
@@ -33,5 +34,6 @@ export {
   InputMedia,
   TextArea,
   BigLoader,
-  Rating
+  Rating,
+  LanguageSwitcher
 };

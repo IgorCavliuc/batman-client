@@ -28,9 +28,9 @@
   }
 
   &--wallpaper {
-    display: flex;
-    overflow: auto;
-    width: 100%;
+    //display: flex;
+    //overflow: auto;
+    //width: 100%;
 
     & > *:not(:last-child) {
       margin-right: 15px;

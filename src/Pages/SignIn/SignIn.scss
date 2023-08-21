@@ -1,0 +1,82 @@
+.batman-ui--sign-in-content {
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+
+  & >*{
+    width: 50%;
+  }
+
+}
+
+.batman-ui--form {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  margin: 0 auto;
+
+}
+
+.batman-ui--form h1 {
+  margin-bottom: 30px;
+}
+
+.batman-ui--form a {
+  color: white;
+}
+
+.batman-ui--form input {
+  border: none;
+  margin-top: 20px;
+  border-radius: 10px 10px 10px 10px;
+  padding: 0 15px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 21px;
+  height: 40px;
+}
+
+.batman-ui--form button {
+  font-family: "Poppins", Sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 15px;
+  color: white;
+  background-color: #3a48f5;
+  border: none;
+  border-radius: 15px 15px 15px 15px;
+  padding: 12px 73px 12px 73px;
+}
+.batman-ui--sign-in-image{
+box-sizing: border-box;
+  overflow: hidden;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.batman-ui--sign-in-image img {
+  border-radius: 30px;
+  height: 100%;
+}
+
+.batman-ui--submit-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+
+}
+
+.batman-ui--submit-button a {
+  color: #3a48f5;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  padding: 0 15px;
+  white-space: nowrap;
+}

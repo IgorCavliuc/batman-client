@@ -1,0 +1,54 @@
+.agent-ui--header__content_language,
+.agent-ui--container__navigation-item_language {
+  border: none;
+
+  .agent-ui-select--option img {
+    margin-right: 7px;
+  }
+  .agent-ui-select--option > span,
+  .agent-ui-select > span {
+    padding: 0;
+    margin: 0;
+  }
+  .agent-ui-select {
+    border: none;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    padding: 0;
+
+    color: #3e4247;
+    & > svg {
+      display: none;
+    }
+  }
+  .agent-ui-select--option--selected,
+  .agent-ui-select--option {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    background: #ffffff;
+    color: #3e4247;
+    padding: 0;
+  }
+
+  .agent-ui-select--options {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    background: #ffffff;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 7px;
+    right: auto;
+    padding: 0;
+    left: -20px;
+  }
+
+  .agent-ui-select--option {
+    padding: 10px 20px;
+  }
+
+  .agent-ui-select--option.agent-ui-select--option--selected {
+    background-color: #e9f1fc;
+  }
+}

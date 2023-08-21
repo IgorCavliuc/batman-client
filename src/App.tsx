@@ -4,17 +4,18 @@ import jwt_decode from 'jwt-decode';
 
 import { connect } from "react-redux";
 import { getAllUser, updateUser } from "./Redux/User/userSlice";
-import Body from "./Companent/Body";
+import Body from "./Pages/Body";
 
-import Navbar from "./Companent/Navbar";
-import Product from "./Companent/Product";
-import Profile from "./Companent/Profile";
-import SignIn from "./Companent/SignIn";
-import SignUp from "./Companent/SignUp";
+import Navbar from "./Pages/Navbar";
+import Product from "./Pages/Product";
+import Profile from "./Pages/Profile";
+import SignIn from "./Pages/SignIn";
+import SignUp from "./Pages/SignUp";
 import "./clear.css";
 import "./index.css";
-import AddPost from "./Companent/AddPost";
-import ProductDetail from "./Companent/ProductDetail";
+import AddPost from "./Pages/AddPost";
+import ProductDetail from "./Pages/ProductDetail";
+import { Layout } from "./Pages/components";
 
 
 interface DecodedToken {
@@ -47,7 +48,7 @@ export const Authorised = ({ component }: any) => {
 
   return (
     <div className="batman-store">
-      <Navbar />
+<Layout>
       <Routes>
         <Route path="*" element={<Navigate to="/" />} />
       <Route path="/" element={ <Body />} />
@@ -65,6 +66,7 @@ export const Authorised = ({ component }: any) => {
       <Route path={`/section/${sectionPath}/:productId`} element={<ProductDetail  />}
       />
     </Routes>
+</Layout>
     </div>
   )
 };

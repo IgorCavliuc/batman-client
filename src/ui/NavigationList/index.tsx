@@ -1,23 +1,14 @@
 import { NavigationItem } from "../index";
 import "./stytle.scss";
-import {  useEffect } from "react";
 import { INavigationType } from "../../type";
 import {connect} from "react-redux";
 import { setAllNavigation} from "../../Redux/Navigation/navigationSlice";
-const { getAllNavigate } = require("../../server/index");
 // import HomeIco from '../img/home.svg'
 
-// interface CurrentNavigation {
-//   dataNavigation: INavigationType[];
-// }
 
 const NavigationList = ({navigation, setAllNavigation}:any) => {
 
-  useEffect(() => {
-    getAllNavigate()
-        .then((res:any) => setAllNavigation(res));
 
-  }, [setAllNavigation]);
   return (
     <nav className="batman-store__header-container_navigation">
       <ul className="batman-store__header-container_navigation-list">

@@ -5,9 +5,76 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcb89bec-99f5-40fa-9034-904220169266" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Pages/components/Layout/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/components/Layout/Menu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/components/Layout/icons/Basket.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/components/Layout/icons/Bell.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/components/Layout/icons/Dashboard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/components/Layout/icons/LoginOut.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/components/Layout/icons/Logo.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/components/Layout/icons/NewPolicy.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/components/Layout/icons/Person.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/components/Layout/icons/Policies.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/components/Layout/icons/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/components/Layout/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/components/Layout/style/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/components/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/LanguageSwitcher/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/LanguageSwitcher/style/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/0.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/10.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/10.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/11.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/11.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/12.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/12.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/4.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/4.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/6.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/6.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/8.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/8.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/tsconfig.tsbuildinfo" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/tsconfig.tsbuildinfo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Companent/AddPost/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/AddPost/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Companent/AddPost/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/AddPost/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Companent/Body/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Body/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Companent/Body/style/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Body/style/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Companent/DetaleProduct/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/DetaleProduct/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Companent/DetaleProduct/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/DetaleProduct/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Companent/Navbar/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Navbar/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Companent/Navbar/style/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Navbar/style/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Companent/Navbar/style/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Navbar/style/index.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Companent/Navbar/style/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Navbar/style/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Companent/Product/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Product/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Companent/Product/style/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Product/style/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Companent/ProductDetail/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ProductDetail/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Companent/ProductDetail/style/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ProductDetail/style/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Companent/Profile/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Profile/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Companent/SignIn/SignIn.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/SignIn/SignIn.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Companent/SignIn/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/SignIn/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Companent/SignUp/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/SignUp/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Companent/SignUp/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/SignUp/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Companent/Transport/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Transport/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Companent/Transport/style/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Transport/style/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Companent/ico/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ico/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Companent/ico/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ico/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Companent/ico/BlackLogoBatman.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ico/BlackLogoBatman.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Companent/ico/admin_asig.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ico/admin_asig.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Companent/ico/key.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ico/key.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Companent/ico/logon.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ico/logon.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Companent/ico/logonbat.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ico/logonbat.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Companent/ico/logos23.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ico/logos23.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Companent/ico/mainlogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ico/mainlogo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Companent/ico/notauthlogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ico/notauthlogo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/Banner/stytle.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/Banner/stytle.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/Benefits/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/Benefits/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/Benefits/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/Benefits/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/FAQ/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/FAQ/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/FAQ/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/FAQ/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/MainTitle/style/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/MainTitle/style/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/NavigationList/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/NavigationList/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/ProductCard/style/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/ProductCard/style/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,26 +95,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/cavliucigor/Desktop/batman-client&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/cavliucigor/Desktop/batman-client/node_modules/prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/cavliucigor/Desktop/batman-client/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/cavliucigor/Desktop/batman-client/src/ui",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/Users/cavliucigor/Desktop/batman-client/node_modules/prettier",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "ts.external.directory.path": "/Users/cavliucigor/Desktop/batman-client/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ui" />
+      <recent name="$PROJECT_DIR$/src/Pages" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -70,6 +139,9 @@
       <workItem from="1691481223059" duration="43948000" />
       <workItem from="1692028600777" duration="6341000" />
       <workItem from="1692110954038" duration="531000" />
+      <workItem from="1692465464185" duration="41000" />
+      <workItem from="1692466395532" duration="295000" />
+      <workItem from="1692635406122" duration="5185000" />
     </task>
     <servers />
   </component>
