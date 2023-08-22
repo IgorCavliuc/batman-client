@@ -6,7 +6,7 @@ import { getAllProduct } from "../../Redux/Products/productSlice";
 import { IProduct } from "../../type";
 import { getAllProducts } from "../../server";
 import "./style/index.scss";
-import BigLoader from "../../ui/BigLoader";
+import { ClockLoader } from "react-spinners";
 
 interface Props {
   items: IProduct[];
@@ -16,29 +16,34 @@ interface Props {
 
 const Product = ({ items, getAllProduct, name }: Props) => {
   const location = useLocation();
-  const [loading, setLoading] = useState(false)
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     const fetchData = async () => {
-      setLoading(true)
+      setLoading(true);
       const res = await getAllProducts(name);
-      if(res) {
+      if (res) {
         getAllProduct(res);
-        setLoading(false)
+        setLoading(false);
       }
-
     };
     fetchData();
-  }, [getAllProduct,name,  location?.pathname]);
+  }, [getAllProduct, name, location?.pathname]);
 
   return (
     <div className="batman-store_product-list">
       <MainTitle>{` According to your request, we found the following ${name?.toUpperCase()}`}</MainTitle>
       <div className="batman-store_product-list-wrapper">
-        {!loading ?   items?.map((item, i) => {
-          return <ProductCard {...item} key={i} />;
-        }) : <div style={{width:"100%"}}><BigLoader children={"Loader..."} theme={"blue"} /> </div>  }
+        {!loading ? (
+          items?.map((item, i) => {
+            return <ProductCard {...item} key={i} />;
+          })
+        ) : (
+          <div className='batman-store_product-list-wrapper--loading'>
+            <ClockLoader color="#11142d" />
 
+          </div>
+        )}
       </div>
     </div>
   );

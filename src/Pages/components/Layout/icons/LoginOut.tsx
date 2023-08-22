@@ -1,10 +1,5 @@
 const LoginOut = () => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width={18}
-    height={19}
-    fill="none"
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" width={18} height={19} fill="none">
     <path
       stroke="#374957"
       strokeLinecap="round"
@@ -22,5 +17,5 @@ const LoginOut = () => (
       <path d="M6.75 9.5h8.535M13.613 12.013 16.125 9.5l-2.512-2.512" />
     </g>
   </svg>
-)
-export default LoginOut
+);
+export default LoginOut;

@@ -14,7 +14,7 @@ const LanguageSwitcher = () => {
     // src: languageLocal === "ro" ? RomanianFlag : RussianFlag,
   }); // default language is Romanian
 
-  const handleLanguage = useCallback(({ v }:any) => {
+  const handleLanguage = useCallback(({ v }: any) => {
     setLanguage(v);
     if (v.id === "ru") {
       localStorage.setItem("language_agent", "ru");

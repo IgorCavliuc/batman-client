@@ -1,12 +1,11 @@
 import React, { useEffect } from "react";
 import { Routes, Route, useLocation, Navigate } from "react-router-dom";
-import jwt_decode from 'jwt-decode';
+import jwt_decode from "jwt-decode";
 
 import { connect } from "react-redux";
 import { getAllUser, updateUser } from "./Redux/User/userSlice";
 import Body from "./Pages/Body";
 
-import Navbar from "./Pages/Navbar";
 import Product from "./Pages/Product";
 import Profile from "./Pages/Profile";
 import SignIn from "./Pages/SignIn";
@@ -17,7 +16,6 @@ import AddPost from "./Pages/AddPost";
 import ProductDetail from "./Pages/ProductDetail";
 import { Layout } from "./Pages/components";
 
-
 interface DecodedToken {
   userId: string;
   iat: number;
@@ -25,10 +23,10 @@ interface DecodedToken {
 }
 
 export const Authorised = ({ component }: any) => {
-  const location = useLocation()
+  const location = useLocation();
 
   useEffect(() => {
-    const accessToken = sessionStorage.getItem('accessToken');
+    const accessToken = sessionStorage.getItem("accessToken");
 
     if (accessToken) {
       try {
@@ -36,11 +34,11 @@ export const Authorised = ({ component }: any) => {
         const currentTime = Math.floor(Date.now() / 1000);
 
         if (decodedToken.exp && decodedToken.exp < currentTime) {
-          sessionStorage.removeItem('accessToken');
+          sessionStorage.removeItem("accessToken");
           window.location.reload();
         }
       } catch (error) {
-        console.error('Error decoding token:', error);
+        console.error("Error decoding token:", error);
       }
     }
   }, []);
@@ -48,63 +46,51 @@ export const Authorised = ({ component }: any) => {
 
   return (
     <div className="batman-store">
-<Layout>
-      <Routes>
-        <Route path="*" element={<Navigate to="/" />} />
-      <Route path="/" element={ <Body />} />
-      <Route
-        path="/profile"
-        element={ <Profile />} />
-      <Route
-        path="/create-post"
-        element={ <AddPost />} />
-      <Route
-        path={"/section/" + sectionPath}
-        element={
-           <Product name={sectionPath} />}
-      />
-      <Route path={`/section/${sectionPath}/:productId`} element={<ProductDetail  />}
-      />
-    </Routes>
-</Layout>
+      <Layout>
+        <Routes>
+          <Route path="*" element={<Navigate to="/" />} />
+          <Route path="/" element={<Body />} />
+          <Route path="/profile" element={<Profile />} />
+          <Route path="/create-post" element={<AddPost />} />
+          <Route
+            path={"/section/" + sectionPath}
+            element={<Product name={sectionPath} />}
+          />
+          <Route
+            path={`/section/${sectionPath}/:productId`}
+            element={<ProductDetail />}
+          />
+        </Routes>
+      </Layout>
     </div>
-  )
+  );
 };
 export const Unauthorised = ({ component }: any) => {
   return (
     <div className="batman-store">
       <Routes>
-        <Route
-          path="/signin"
-          element={<SignIn />}
-        />
-        <Route
-          path="/signup"
-          element={<SignUp />}
-        />
+        <Route path="/signin" element={<SignIn />} />
+        <Route path="/signup" element={<SignUp />} />
         <Route path="*" element={<Navigate to="signin" />} />
-
       </Routes>
     </div>
   );
 };
 
 function App({ user, updateUser }: any) {
-  const accessToken =  sessionStorage.getItem('accessToken')
+  const accessToken = sessionStorage.getItem("accessToken");
 
   useEffect(() => {
-    const userData:any = localStorage.getItem('userData')
-    const userObjectData = JSON.parse(userData)
-    updateUser(userObjectData)
+    const userData: any = localStorage.getItem("userData");
+    const userObjectData = JSON.parse(userData);
+    updateUser(userObjectData);
   }, [updateUser]);
 
-  const Page = accessToken ? Authorised : Unauthorised
+  const Page = accessToken ? Authorised : Unauthorised;
 
   return (
     <div className="batman-store">
-
-<Page/>
-
+      <Page />
     </div>
   );
 }

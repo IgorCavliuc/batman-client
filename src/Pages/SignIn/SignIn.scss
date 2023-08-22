@@ -5,11 +5,10 @@
   width: 100%;
   align-items: center;
   text-align: center;
-
-  & >*{
+  background-image: url("../ico/white-geometric.jpg");
+  & > * {
     width: 50%;
   }
-
 }
 
 .batman-ui--form {
@@ -17,7 +16,11 @@
   flex-direction: column;
   width: 700px;
   margin: 0 auto;
-
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.3px);
+  -webkit-backdrop-filter: blur(8.3px);
 }
 
 .batman-ui--form h1 {
@@ -40,7 +43,6 @@
 }
 
 .batman-ui--form button {
-  font-family: "Poppins", Sans-serif;
   font-size: 15px;
   font-weight: 500;
   line-height: 15px;
@@ -50,8 +52,8 @@
   border-radius: 15px 15px 15px 15px;
   padding: 12px 73px 12px 73px;
 }
-.batman-ui--sign-in-image{
-box-sizing: border-box;
+.batman-ui--sign-in-image {
+  box-sizing: border-box;
   overflow: hidden;
   height: 100%;
   display: flex;
@@ -69,7 +71,6 @@ box-sizing: border-box;
   justify-content: space-between;
   align-items: center;
   margin-top: 20px;
-
 }
 
 .batman-ui--submit-button a {

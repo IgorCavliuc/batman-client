@@ -13,8 +13,8 @@ import Input from "./Input";
 import Select from "./Select";
 import InputMedia from "./InputMedia";
 import TextArea from "./TextArea";
-import BigLoader from './BigLoader'
-import Rating from './Rating'
+import BigLoader from "./BigLoader";
+import Rating from "./Rating";
 import LanguageSwitcher from "./LanguageSwitcher";
 
 export {
@@ -35,5 +35,5 @@ export {
   TextArea,
   BigLoader,
   Rating,
-  LanguageSwitcher
+  LanguageSwitcher,
 };

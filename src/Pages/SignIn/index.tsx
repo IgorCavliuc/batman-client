@@ -5,7 +5,6 @@ import { connect } from "react-redux";
 import { getAllUser } from "../../Redux/User/userSlice";
 import { Button } from "../../ui";
 import { signIn } from "../../server";
-const AsigAdmin = require("../ico/mainlogo.png");
 
 type FormValues = {
   login: string;
@@ -25,14 +24,14 @@ const SignIn: React.FC<SignInProps> = ({ getAllUser }) => {
     mode: "onChange",
   });
 
-  const onSubmit = async (data:any) => {
-    signIn(data).then(res=> {
-      if(res.app_code === "ACCESS_TOKEN") {
-        sessionStorage.setItem("accessToken", res.token)
-        localStorage.setItem("userData", JSON.stringify(res.data))
+  const onSubmit = async (data: any) => {
+    signIn(data).then((res) => {
+      if (res.app_code === "ACCESS_TOKEN") {
+        sessionStorage.setItem("accessToken", res.token);
+        localStorage.setItem("userData", JSON.stringify(res.data));
         window.location.reload();
       }
-    })
+    });
   };
 
   return (
@@ -44,7 +43,7 @@ const SignIn: React.FC<SignInProps> = ({ getAllUser }) => {
             required: "Login is a required field!",
             pattern: {
               value:
-              // eslint-disable-next-line
+                // eslint-disable-next-line
                 /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/,
               message: "Please enter a valid login.",
             },
@@ -76,9 +75,6 @@ const SignIn: React.FC<SignInProps> = ({ getAllUser }) => {
           <Link to="/signup"> Sign Up</Link>
         </div>
       </form>
-      <div className="batman-ui--sign-in-image">
-        <img src={AsigAdmin} alt="AsigAdmin" />
-      </div>
     </div>
   );
 };

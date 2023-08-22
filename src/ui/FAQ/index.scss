@@ -1,15 +1,11 @@
 .batman-store__faq {
-
-  background: #2F3CED;
+  background: #2f3ced;
   min-width: 506px;
   height: 151px;
   padding: 15px;
   box-sizing: border-box;
   border-radius: 24px;
   border: 1px solid #2f3ced;
-
-
-
 
   & > h4 {
     font-weight: 400;
@@ -24,7 +20,6 @@
     font-size: 15px;
     line-height: 24px;
     color: white;
-
   }
 
   &--wallpaper {
@@ -39,13 +34,11 @@
     &::-webkit-scrollbar {
       width: 0;
     }
-
-
   }
 }
 
 @media only screen and (max-width: 760px) {
-  .batman-store__faq{
+  .batman-store__faq {
     min-width: 100%;
   }
 }

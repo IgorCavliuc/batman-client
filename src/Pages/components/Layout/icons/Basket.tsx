@@ -1,10 +1,5 @@
 const Basket = () => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width={30}
-    height={30}
-    fill="none"
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" width={30} height={30} fill="none">
     <path
       stroke="#374957"
       strokeLinecap="round"
@@ -25,5 +20,5 @@ const Basket = () => (
       d="M12.76 18v3.55M17.36 18v3.55M6.5 14l1.41 8.64C8.23 24.58 9 26 11.86 26h6.03c3.11 0 3.57-1.36 3.93-3.24L23.5 14"
     />
   </svg>
-)
+);
 export default Basket;

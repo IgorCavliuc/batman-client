@@ -14,7 +14,7 @@ export const navigationsSlice = createSlice({
   },
 });
 
-export const dataNavigationSlice = (state) => state.navigationsSlice
+export const dataNavigationSlice = (state) => state.navigationsSlice;
 export const { setAllNavigation } = navigationsSlice.actions;
 
 export default navigationsSlice.reducer;

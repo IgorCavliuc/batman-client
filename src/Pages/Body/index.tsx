@@ -3,8 +3,6 @@ import { Banner, Benefits } from "../../ui";
 import { connect } from "react-redux";
 
 const Body = ({ user }: any) => {
-
-
   return (
     <div className="batman-store__container">
       <p>Hi, {user?.name}! </p>

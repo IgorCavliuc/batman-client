@@ -1,8 +1,9 @@
 import axios from "axios";
 
-
-const local = window.location.href.includes('localhost')
-const url = local ? "http://localhost:3000" : "https://batman-server.vercel.app";
+const local = window.location.href.includes("localhost");
+const url = local
+  ? "http://localhost:3000"
+  : "https://batman-server.vercel.app";
 export const getAllNavigate = () => {
   return fetch(url + "/navigation")
     .then((res) => res.json())
@@ -55,7 +56,9 @@ export const addUser = async (postData) => {
       "Content-Type": "application/json",
     };
 
-    const response = await axios.post(url + "/create-user", postData, { headers });
+    const response = await axios.post(url + "/create-user", postData, {
+      headers,
+    });
     return response.data;
   } catch (error) {
     console.error(error);
@@ -65,7 +68,7 @@ export const addUser = async (postData) => {
 
 export const signIn = async (data) => {
   try {
-    const response = await axios.post(url + '/api/login', data);
+    const response = await axios.post(url + "/api/login", data);
     return response.data;
   } catch (error) {
     console.error(error);

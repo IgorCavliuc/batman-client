@@ -1,10 +1,5 @@
 const Person = () => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width={22}
-    height={22}
-    fill="none"
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" width={22} height={22} fill="none">
     <path
       stroke="currentColor"
       strokeLinecap="round"
@@ -21,5 +16,5 @@ const Person = () => (
       opacity={0.4}
     />
   </svg>
-)
-export default Person
+);
+export default Person;

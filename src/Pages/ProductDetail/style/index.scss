@@ -1,27 +1,26 @@
-.batman-store__product--wallpaper{
+.batman-store__product--wallpaper {
   margin: 40px;
   width: 100%;
 }
-.batman-store__product{
+.batman-store__product {
   display: flex;
   width: 100%;
-
 }
 
-.batman-store__product--image{
+.batman-store__product--image {
   width: 200px;
   margin-right: 20px;
-  &>img{
+  & > img {
     width: 100%;
   }
 }
-.batman-store__produc--info{
+.batman-store__produc--info {
   width: 60%;
   border-radius: 15px;
-  background: #F3F2F2;
+  background: #f3f2f2;
   padding: 20px;
 
-  &>h1{
+  & > h1 {
     color: #030303;
     font-size: 20px;
     font-style: normal;
@@ -31,17 +30,17 @@
     text-align: center;
     margin-bottom: 15px;
   }
-  &>p{
+  & > p {
     display: flex;
     width: 200px;
     margin-bottom: 15px;
   }
 }
-.batman-store__produc--info-data{
+.batman-store__produc--info-data {
   display: flex;
   margin-bottom: 15px;
 
-  &>p{
+  & > p {
     color: #374957;
     font-size: 16px;
     font-style: normal;
@@ -49,7 +48,7 @@
     line-height: 17px;
     margin-right: 5px;
   }
-  &>h4{
+  & > h4 {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;

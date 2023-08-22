@@ -4,11 +4,12 @@
     overflow: auto;
     height: 100vh;
 
-
-    & .batman-store__faq--wallpaper{
+    & .batman-store__faq--wallpaper {
       margin-top: 30px;
     }
-    &::-webkit-scrollbar { width: 0; }
+    &::-webkit-scrollbar {
+      width: 0;
+    }
 
     & > p {
       font-weight: 500;
@@ -29,10 +30,9 @@
       margin-top: 30px;
       //width: 978px;
       width: 100%;
-      &>*:not(:last-child){
+      & > *:not(:last-child) {
         margin-right: 20px;
       }
-
     }
     & > img {
       margin-left: 30px;
@@ -46,21 +46,18 @@
 }
 
 @media only screen and (max-width: 1800px) {
-  .batman-store__container_banner{
+  .batman-store__container_banner {
     display: block;
 
-
-    &>*:not(:last-child){
-    margin-bottom: 20px;
+    & > *:not(:last-child) {
+      margin-bottom: 20px;
       margin-right: 0;
-
-
-  }
-    &.batman-store__container_banner .carousel-item{
+    }
+    &.batman-store__container_banner .carousel-item {
       width: 100%;
     }
   }
-  .batman-store__banner.batman-store__banner{
+  .batman-store__banner.batman-store__banner {
     width: 100%;
   }
 }

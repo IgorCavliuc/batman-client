@@ -1,18 +1,15 @@
-.batman-store__benefits{
-  &-list{
+.batman-store__benefits {
+  &-list {
     width: 100%;
-    &>*:not(:last-child){
-    margin-bottom: 10px;
+    & > *:not(:last-child) {
+      margin-bottom: 10px;
+    }
   }
-
-  }
-
 }
 
 @media only screen and (max-width: 960px) {
-
-  .batman-store__benefits{
-    &-list{
+  .batman-store__benefits {
+    &-list {
       width: 100%;
       overflow: visible;
       height: auto;

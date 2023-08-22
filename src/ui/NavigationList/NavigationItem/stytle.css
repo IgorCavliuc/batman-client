@@ -14,7 +14,7 @@
   text-decoration: none;
 }
 
-.batman-store__header-container_navigation-list-item>img {
+.batman-store__header-container_navigation-list-item > img {
   margin-right: 18px;
 }
 
@@ -35,7 +35,9 @@
   text-decoration: none;
 }
 
-.batman-store__header-container_navigation-list-item:hover:not(.batman-store__header-container_navigation-list-item--active) {
+.batman-store__header-container_navigation-list-item:hover:not(
+    .batman-store__header-container_navigation-list-item--active
+  ) {
   color: #11142d;
 }
 

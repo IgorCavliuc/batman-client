@@ -1,5 +1,5 @@
 import "./index.scss";
-import {  InputMedia, MainTitle, Select, TextArea } from "../../ui";
+import { InputMedia, MainTitle, Select, TextArea } from "../../ui";
 import { useEffect } from "react";
 import { addPost, getAllCategories } from "../../server/index.js";
 import CategoriesItem from "../../ui/CategoriesItem";
@@ -48,9 +48,7 @@ const AddPost = ({
   return (
     <div className="batman-store__create-post">
       <div onClick={() => setCurrentCategory({})}>
-        <MainTitle
-          children={'Create announcement'}
-        />
+        <MainTitle children={"Create announcement"} />
       </div>
 
       {Object.keys(currentCategory)?.length ? (
@@ -160,11 +158,11 @@ const AddPost = ({
       ) : (
         <>
           <p>Choose one of the following categories</p>
-          <h4>
-            *Attention! You may not find a category in this list that matches
-            the type of your ad. If you would like to post an ad that does not
-            qualify for a specific topic, please report it to technical support.
-          </h4>
+          {/*<h4>*/}
+          {/*  *Attention! You may not find a category in this list that matches*/}
+          {/*  the type of your ad. If you would like to post an ad that does not*/}
+          {/*  qualify for a specific topic, please report it to technical support.*/}
+          {/*</h4>*/}
           <div className="batman-store__create-post_categories-list">
             {(allCategory ?? []).map((item: any, i: number) => {
               return (

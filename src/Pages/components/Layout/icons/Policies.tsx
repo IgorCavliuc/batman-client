@@ -1,10 +1,5 @@
 const Policies = () => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width={22}
-    height={22}
-    fill="none"
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" width={22} height={22} fill="none">
     <path
       stroke="currentColor"
       strokeLinecap="round"
@@ -23,5 +18,5 @@ const Policies = () => (
       <path d="M13.755 10.363h-5.51M11 7.673v5.51" />
     </g>
   </svg>
-)
+);
 export default Policies;

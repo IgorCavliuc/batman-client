@@ -22,42 +22,43 @@ const NonProfile = () => {
 };
 
 const Navbar = ({ user }: any) => {
-const [openBurger, setOpenBurger] = useState(false)
-
+  const [openBurger, setOpenBurger] = useState(false);
 
   const classBurgerName = ClassNames("batman-store__header", {
     "batman-store__header--open": openBurger,
   });
   return (
     <>
-   <div className='batman-store__header--menu' onClick={()=>setOpenBurger(!openBurger)}>
+      <div
+        className="batman-store__header--menu"
+        onClick={() => setOpenBurger(!openBurger)}
+      >
         <img src={MenuBergerIco} alt="MenuBergerIco" />
       </div>
-    <div className={classBurgerName}>
-
-      <div className="batman-store__header-container">
-        <div className="batman-store__header-container_logo">
-          <NavLink to="/">
-            {/* <p>
+      <div className={classBurgerName}>
+        <div className="batman-store__header-container">
+          <div className="batman-store__header-container_logo">
+            <NavLink to="/">
+              {/* <p>
                             Batman <span>.</span>
                         </p> */}
-            <img src={BatmanLogoIco} alt="BatmanLogoIco" />
+              <img src={BatmanLogoIco} alt="BatmanLogoIco" />
+            </NavLink>
+          </div>
+          <NavLink
+            to={"/create-post"}
+            className={({ isActive }) =>
+              isActive
+                ? "batman-store__header-button--active"
+                : "batman-store__header-button"
+            }
+          >
+            <Button children="Add post" theme="added" />
           </NavLink>
+          <NavigationList />
         </div>
-        <NavLink
-          to={"/create-post"}
-          className={({ isActive }) =>
-            isActive
-              ? "batman-store__header-button--active"
-              : "batman-store__header-button"
-          }
-        >
-          <Button children="Add post" theme="added" />
-        </NavLink>
-        <NavigationList />
+        {user ? <NavigationProfile user={user} /> : <NonProfile />}
       </div>
-      {user? <NavigationProfile user={user}/> : <NonProfile />}
-    </div>
     </>
   );
 };

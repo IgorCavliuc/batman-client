@@ -1,6 +1,6 @@
 import { IProduct } from "../../type";
 import "./style/index.scss";
-import { NavLink, useLocation, useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { useCallback } from "react";
 import { selectPrductAction } from "../../Redux/Products/productSlice";
@@ -20,12 +20,11 @@ const ProductCard = ({
   thumbnail,
   title,
 }: IProduct) => {
+  const location = useLocation();
+  const dispatch = useDispatch();
+  const navigate = useNavigate();
 
-  const location = useLocation()
-  const dispatch = useDispatch()
-  const navigate = useNavigate()
-
-  const handleSelectProduct = useCallback(()=>{
+  const handleSelectProduct = useCallback(() => {
     const objectData = {
       brand,
       model,
@@ -40,17 +39,16 @@ const ProductCard = ({
       stock,
       thumbnail,
       title,
-    }
+    };
 
-    dispatch(selectPrductAction(objectData))
-    navigate(location?.pathname + "/"+_id)
-
-
-  },[])
+    dispatch(selectPrductAction(objectData));
+    navigate(location?.pathname + "/" + _id);
+// eslint-disable-next-line
+  }, []);
 
   return (
     // <NavLink to={location?.pathname + "/"+_id}>
-    <div  onClick={handleSelectProduct} className="batman-ui__card">
+    <div onClick={handleSelectProduct} className="batman-ui__card">
       <div className="batman-ui__card_image">
         <img src={images[0]} alt="imageProduct" />
       </div>

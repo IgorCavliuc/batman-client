@@ -1,11 +1,6 @@
-import * as React from "react"
+import * as React from "react";
 const Dashboard = () => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width={22}
-    height={22}
-    fill="none"
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" width={22} height={22} fill="none">
     <path
       stroke="currentColor"
       strokeLinecap="round"
@@ -37,5 +32,5 @@ const Dashboard = () => (
       opacity={0.4}
     />
   </svg>
-)
-export default Dashboard
+);
+export default Dashboard;

@@ -2,8 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
   items: [],
-  select:{}
-
+  select: {},
 };
 
 export const productSlice = createSlice({

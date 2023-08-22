@@ -1,6 +1,6 @@
-.batman-store__benefits{
-  &-item{
-    background: #FFFFFF;
+.batman-store__benefits {
+  &-item {
+    background: #ffffff;
     border-radius: 24px;
     width: 100%;
     height: 90px;
@@ -8,56 +8,52 @@
     box-sizing: border-box;
     border: 1px solid #808191;
     cursor: pointer;
-    transition: .2s ease-in-out;
+    transition: 0.2s ease-in-out;
 
-
-    &--active{
-      & .batman-store__benefits-item--container{
+    &--active {
+      & .batman-store__benefits-item--container {
         opacity: 1;
-        &>p{
+        & > p {
           display: block;
         }
       }
-      & .batman-store__benefits-item--title-select{
-        & > img{
-          transform: rotate(90deg)
+      & .batman-store__benefits-item--title-select {
+        & > img {
+          transform: rotate(90deg);
         }
       }
     }
 
-    &--title{
+    &--title {
       display: flex;
       justify-content: space-between;
       align-items: center;
       width: 100%;
       height: 90px;
 
-      &-select{
-
+      &-select {
       }
-
     }
-    &--header{
+    &--header {
       display: flex;
       align-items: center;
-      & div{
-        & p{
+      & div {
+        & p {
           font-weight: 600;
           font-size: 16px;
           line-height: 19px;
           margin-bottom: 3px;
         }
-        & h4{
+        & h4 {
           font-weight: 600;
           font-size: 13px;
           line-height: 18px;
           color: #808191;
         }
-
       }
 
-      &-img{
-        background: #FFA2C0;
+      &-img {
+        background: #ffa2c0;
         border-radius: 16px;
         height: 56px;
         width: 56px;
@@ -67,11 +63,11 @@
         margin-right: 25px;
       }
     }
-    &--container{
+    &--container {
       transition: 0.2s ease-in-out;
       opacity: 0;
 
-      &>p{
+      & > p {
         word-wrap: break-word;
         font-weight: 400;
         font-size: 16px;

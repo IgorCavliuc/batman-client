@@ -204,7 +204,7 @@ const Select = ({
     if (type === "search" && !value) {
       setOpen(true);
     }
-  }, [type,  value, ]);
+  }, [type, value]);
 
   // const handleBlur = useCallback(() => {
   //   setFocus(false);

@@ -7,19 +7,19 @@
   background: #ffffff;
   border: 1px solid #f3f3f3;
   box-shadow: 0px 5px 10px rgba(30, 114, 227, 0.12);
-  border-radius: 40px;
+  border-radius: 20px;
   padding: 30px;
   transition: 0.5s;
   margin: 25px 10px;
   p {
     margin: 0;
     padding: 0;
-    color: #374957
+    color: #374957;
   }
   h4 {
     margin: 0;
     padding: 0;
-    color: #374957
+    color: #374957;
   }
 
   &_image {
@@ -89,7 +89,7 @@
       font-size: 9px;
       line-height: 10px;
       display: flex;
-      align-items:flex-start;
+      align-items: flex-start;
     }
   }
   &_more-info {

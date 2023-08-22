@@ -9,7 +9,13 @@
   display: flex;
   width: 920px;
   height: 400px;
-  background: -webkit-gradient(linear, left top, right top, from(#000428), to(#6f0000));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#000428),
+    to(#6f0000)
+  );
   background: linear-gradient(to right, #000428, #6f0000);
   border-radius: 24px;
   padding-left: 50px;
@@ -18,12 +24,24 @@
 }
 
 .batman-store__banner--orange {
-  background: -webkit-gradient(linear, left top, right top, from(#000428), to(#ea5e24));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#000428),
+    to(#ea5e24)
+  );
   background: linear-gradient(to right, #000428, #ea5e24);
 }
 
 .batman-store__banner--yellow {
-  background: -webkit-gradient(linear, left top, right top, from(#000428), to(#ffd546));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#000428),
+    to(#ffd546)
+  );
   background: linear-gradient(to right, #000428, #ffd546);
 }
 
@@ -48,7 +66,7 @@
   margin-bottom: 8px;
 }
 
-.batman-store__banner_container>p {
+.batman-store__banner_container > p {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
