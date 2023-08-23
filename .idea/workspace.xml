@@ -5,82 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcb89bec-99f5-40fa-9034-904220169266" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Pages/ico/white-geometric.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/Burger/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/Burger/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/0.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/10.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/10.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/11.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/11.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/12.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/12.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/4.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/4.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/6.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/6.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/8.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/8.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/tsconfig.tsbuildinfo" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/tsconfig.tsbuildinfo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/AddPost/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/AddPost/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/AddPost/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/AddPost/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Body/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Body/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Body/style/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Body/style/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Navbar/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Navbar/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Navbar/style/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Navbar/style/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Product/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Product/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Product/style/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Product/style/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/ProductDetail/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ProductDetail/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/ProductDetail/style/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ProductDetail/style/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Profile/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Profile/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/SignIn/SignIn.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/SignIn/SignIn.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/SignIn/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/SignIn/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/SignUp/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/SignUp/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/SignUp/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/SignUp/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Transport/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Transport/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/components/Layout/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/components/Layout/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/components/Layout/Menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/components/Layout/Menu.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/components/Layout/icons/Basket.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/components/Layout/icons/Basket.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/components/Layout/icons/Bell.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/components/Layout/icons/Bell.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/components/Layout/icons/Dashboard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/components/Layout/icons/Dashboard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/components/Layout/icons/LoginOut.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/components/Layout/icons/LoginOut.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/components/Layout/icons/Logo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/components/Layout/icons/Logo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/components/Layout/icons/NewPolicy.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/components/Layout/icons/NewPolicy.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/components/Layout/icons/Person.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/components/Layout/icons/Person.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/components/Layout/icons/Policies.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/components/Layout/icons/Policies.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/components/Layout/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/components/Layout/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/components/Layout/style/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/components/Layout/style/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/Navigation/navigationSlice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/Navigation/navigationSlice.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/Products/productSlice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/Products/productSlice.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clear.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/clear.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/Banner/stytle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/Banner/stytle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/Banner/stytle.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/Banner/stytle.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/BenefitItem/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/BenefitItem/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/Benefits/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/Benefits/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/BigLoader/style/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/BigLoader/style/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/Button/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/Button/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/CategoriesItem/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/CategoriesItem/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/FAQ/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/FAQ/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/FAQ/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/FAQ/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/InputMedia/style/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/InputMedia/style/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/LanguageSwitcher/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/LanguageSwitcher/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/MainTitle/style/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/MainTitle/style/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/NavigationList/NavigationItem/stytle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/NavigationList/NavigationItem/stytle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/NavigationList/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/NavigationList/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/NavigationList/stytle.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/NavigationList/stytle.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/NavigationProfile/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/NavigationProfile/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/NavigationProfile/style/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/NavigationProfile/style/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/ProductCard/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/ProductCard/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/ProductCard/style/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/ProductCard/style/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/Rating/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/Rating/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/Rating/style/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/Rating/style/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/Select/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/Select/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +31,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "develop",
     "last_opened_file_path": "/Users/cavliucigor/Desktop/batman-client/src/Pages/ico",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -150,7 +75,7 @@
       <workItem from="1692110954038" duration="531000" />
       <workItem from="1692465464185" duration="41000" />
       <workItem from="1692466395532" duration="295000" />
-      <workItem from="1692635406122" duration="18906000" />
+      <workItem from="1692635406122" duration="19891000" />
     </task>
     <servers />
   </component>
