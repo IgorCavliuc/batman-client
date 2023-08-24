@@ -10,6 +10,7 @@
   justify-content: flex-end;
   padding: 0 50px;
   background: #fff;
+  z-index: 200;
 }
 
 .rapidmd_cabinet__header button {
@@ -220,7 +221,7 @@ a.rapidmd_cabinet__header__language {
 }
 @media only screen and (max-width: 1170px){
   .rapidmd_cabinet__content{
-    margin-left: 10px;
+    margin: 80px 10px 0;
   }
   .rapidmd_cabinet__menu{
     top: 0;

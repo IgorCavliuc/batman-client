@@ -1,24 +1,73 @@
 .batman-store__product--wallpaper {
   margin: 40px;
-  width: 100%;
+  box-sizing: border-box;
 }
 .batman-store__product {
   display: flex;
   width: 100%;
 }
-
-.batman-store__product--image {
-  width: 200px;
-  margin-right: 20px;
-  & > img {
-    width: 100%;
-  }
+//.carousel .slider {
+//  width: 100%;
+//  max-width: 500px;
+//}
+.carousel-slider{
+  display: flex;
+  justify-content: center;
+box-sizing: border-box;
 }
-.batman-store__produc--info {
+.carousel-root{
+  width: 100%;
+
+}
+.carousel{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.slide > div{
+  border-radius: 30px;
+  overflow: hidden;
+  height: 400px;
+}
+
+.carousel .thumb {
+  overflow: hidden;
+  height: 80px;
+  width: 80px;
+}
+.carousel.carousel-slider .control-arrow:hover{
+background: transparent;
+}
+.carousel.carousel-slider .control-arrow{
+  width: 50px;
+}
+.slide{
+  display: flex;
+align-items: center;
+  justify-content: center;
+}
+.carousel-status{
+  display: none;
+}
+.batman-store__product--info-more--detale__row{
+  display: flex;
+}
+.batman-store__product--image {
+  width: 50%;
+  //width: 200px;
+  margin-right: 20px;
+  //& > img {
+  //  width: 100%;
+  //}
+}
+.batman-store__product--info {
   width: 60%;
   border-radius: 15px;
   background: #f3f2f2;
   padding: 20px;
+  box-sizing: border-box;
 
   & > h1 {
     color: #030303;
@@ -36,7 +85,7 @@
     margin-bottom: 15px;
   }
 }
-.batman-store__produc--info-data {
+.batman-store__product--info-data {
   display: flex;
   margin-bottom: 15px;
 
@@ -55,3 +104,18 @@
     line-height: 17px; /* 100% */
   }
 }
+@media only screen and (max-width: 1500px) {
+
+  .batman-store__product {
+flex-direction: column;
+  }
+  .batman-store__product--info,
+  .batman-store__product--image{
+    width: 100%;
+    margin: 0;
+  }
+  .batman-store__product--wallpaper{
+    margin: 0;
+  }
+}
+
