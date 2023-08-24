@@ -16,7 +16,7 @@ export interface IProduct {
   };
   _id: number;
   images: any;
-  price: number;
+  price: any;
   currency: string;
   rating: number;
   stock: number;

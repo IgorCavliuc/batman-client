@@ -64,7 +64,8 @@ const ProductCard = ({
       </div>
       <div className="batman-ui__card_price">
         <p>
-          <span>Price:</span> {price} {currency ?? "MDL"}
+          <span>Price:</span>  {(typeof price === "string" ? price : price?.[0]?.value) ?? "No Price"}{" "}  {price[0]?.currency ?  price?.[0]?.currency : "No Currency"}
+
         </p>
         {discount?.value ? (
           <h4>

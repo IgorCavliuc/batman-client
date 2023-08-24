@@ -8,7 +8,7 @@
   border: 1px solid #f3f3f3;
   box-shadow: 0px 5px 10px rgba(30, 114, 227, 0.12);
   border-radius: 20px;
-  padding: 30px;
+  padding: 10px;
   transition: 0.5s;
   margin: 25px 10px;
   p {
@@ -23,11 +23,10 @@
   }
 
   &_image {
-    margin-bottom: 15px;
     text-align: center;
-    height: 104px;
-    width: 140px;
-    margin: 0 auto;
+    width: 100%;
+    margin: 0 auto 5px;
+    border-radius: 20px;
 
     & > img {
       margin: 0 auto;
@@ -41,15 +40,17 @@
   }
   &_info {
     p {
-      font-style: normal;
-      font-weight: 400;
-      font-size: 14px;
-      line-height: 17px;
       margin-top: 5px;
+      color: #374957;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 18px; /* 112.5% */
+
+
 
       white-space: nowrap; /* Запрещаем перенос строк */
       overflow: hidden; /* Обрезаем все, что не помещается в область */
-      background: rgba(255, 145, 30, 0.1); /* Цвет фона */
       padding: 5px; /* Поля вокруг текста */
       text-overflow: ellipsis;
       border-radius: 5px;
@@ -63,7 +64,7 @@
     }
   }
   &_price {
-    margin-top: 15px;
+    margin-top: 5px;
     display: flex;
     & > p {
       font-style: normal;
@@ -93,7 +94,7 @@
     }
   }
   &_more-info {
-    margin-top: 15px;
+    margin-top: 5px;
     height: 50px;
     overflow: hidden;
     & > p {
