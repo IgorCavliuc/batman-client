@@ -68,7 +68,25 @@ a.rapidmd_cabinet__header__language {
   line-height: 16px;
   padding: 0;
   border-radius: 50%;
-  right: 2px;
+  right: -10px;
+  top: -9px;
+  padding: 0 4px;
+  box-sizing: border-box;
+}
+
+.rapidmd_cabinet__header__basket__length {
+  min-width: 16px;
+  height: 16px;
+  position: absolute;
+  background-color: #ff565c;
+  color: #fff;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  border-radius: 50%;
+  right: -12px;
+  top: -9px;
   padding: 0 4px;
   box-sizing: border-box;
 }
@@ -78,6 +96,7 @@ a.rapidmd_cabinet__header__language {
   border: 0;
   background-color: transparent;
   margin-right: 20px;
+  position: relative;
 }
 
 .rapidmd_cabinet__header__user {

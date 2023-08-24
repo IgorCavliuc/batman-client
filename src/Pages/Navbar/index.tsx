@@ -5,11 +5,11 @@ import { connect } from "react-redux";
 import { useState } from "react";
 import ClassNames from "classnames";
 
-const BatmanLogoIco = require("../ico/1.png");
+const BatmanLogoIco = require("../../ui/ico/1.png");
 const MenuBergerIco = require("../../img/menu.png");
 
 // const HomeIco = require("../../ui/img/home.svg");
-const SignInIco = require("../ico/key.svg").default;
+const SignInIco = require("../../ui/ico/key.svg").default;
 
 const NonProfile = () => {
   return (

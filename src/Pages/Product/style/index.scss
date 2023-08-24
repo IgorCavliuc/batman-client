@@ -3,6 +3,9 @@
   &-wrapper {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: -5px;
+    width: 100%;
   }
 }
 
@@ -19,4 +22,11 @@
   right: 0;
   top: 0;
   width: 100%
+}
+
+@media only screen and (max-width: 1031px) {
+
+  .batman-store_product-list-wrapper{
+    justify-content: center;
+  }
 }

@@ -22,6 +22,7 @@ export interface IProduct {
   stock: number;
   thumbnail: string;
   title: string;
+  detaleObject:any
 }
 
 // export interface  iUser{

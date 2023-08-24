@@ -4,6 +4,9 @@ import { useLocation, useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { useCallback } from "react";
 import { selectPrductAction } from "../../Redux/Products/productSlice";
+import {Button} from '../'
+
+import {ImageIco, TransLike} from '../../ui/icons'
 
 const ProductCard = ({
   brand,
@@ -19,6 +22,7 @@ const ProductCard = ({
   stock,
   thumbnail,
   title,
+  detaleObject
 }: IProduct) => {
   const location = useLocation();
   const dispatch = useDispatch();
@@ -39,6 +43,7 @@ const ProductCard = ({
       stock,
       thumbnail,
       title,
+      detaleObject
     };
 
     dispatch(selectPrductAction(objectData));
@@ -48,9 +53,16 @@ const ProductCard = ({
 
   return (
     // <NavLink to={location?.pathname + "/"+_id}>
-    <div onClick={handleSelectProduct} className="batman-ui__card">
+    <div  className="batman-ui__card">
+      <div className="batman-ui__card-header">
+        <p className='batman-ui__card-header_title'>{detaleObject?.brand ?? title} <br/>{detaleObject?.brand && detaleObject?.model ? <span>{detaleObject?.model}</span>: null }</p>
+
+<TransLike/>
+      </div>
       <div className="batman-ui__card_image">
-        <img src={images[0]} alt="imageProduct" />
+        {images[0] ? <img src={images[0]} alt="imageProduct" /> :
+          <div className="batman-ui__card_image-flex">
+            <ImageIco/></div>}
       </div>
       <div className="batman-ui__card_info">
         {brand || model ? (
@@ -60,7 +72,6 @@ const ProductCard = ({
               (model ?? "")}
           </h4>
         ) : null}
-        <p>{title}</p>
       </div>
       <div className="batman-ui__card_price">
         <p>
@@ -73,8 +84,9 @@ const ProductCard = ({
           </h4>
         ) : null}
       </div>
-      <div className="batman-ui__card_more-info">
-        <p>{description}</p>
+      <div className="batman-ui__card_more-info batman-ui__card_more-info--button">
+        <Button children="View more" onClick={handleSelectProduct} theme='transparent'/>
+        <Button children='Add to Basket'/>
       </div>
     </div>
     // </NavLink>

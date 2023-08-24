@@ -29,6 +29,9 @@ const Header = ({ user , handleMenuOpen, openMenu}: any) => {
       </button>
       <button className="rapidmd_cabinet__header__basket">
         <Basket />
+        <span className="rapidmd_cabinet__header__basket__length">
+          1
+        </span>
       </button>
       <button className="rapidmd_cabinet__header__user">
         {user?.lastname?.slice(0, 1)}

@@ -2,15 +2,47 @@
   font-family: "Inter", sans-serif;
   width: 100%;
   height: 100%;
-  max-width: 210px;
-  min-height: 260px;
-  background: #ffffff;
-  border: 1px solid #f3f3f3;
-  box-shadow: 0px 5px 10px rgba(30, 114, 227, 0.12);
-  border-radius: 20px;
+  //max-width: 317px;
+  min-height: 388px;
+  border-radius: 10px;
+  background: var(--primary-0, #FFF);
   padding: 10px;
   transition: 0.5s;
   margin: 25px 10px;
+  box-sizing: border-box;
+  //border: 1px solid rgba(30, 114, 227, 0.12);
+  //box-shadow: 1px 3px 15px rgba(0, 0, 0, 0.1);
+
+  cursor: pointer;
+  max-width: calc(20% - 5px);
+  min-width: 317px;
+
+
+&-header{
+  display: flex;
+  justify-content: space-between;
+    margin-bottom: 30px;
+
+  &_title{
+    color: var(--secondary-500, #1A202C);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 30px */
+    letter-spacing: -0.6px;
+
+    &>span{
+
+      color: var(--secondary-300, #90A3BF);
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 150%; /* 21px */
+      letter-spacing: -0.28px;
+      margin-top: 5px;
+    }
+  }
+}
   p {
     margin: 0;
     padding: 0;
@@ -29,6 +61,13 @@ overflow: hidden;
     margin: 0 auto 5px;
     border-radius: 20px;
 
+    &-flex{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+    }
+
     & > img {
     object-fit: cover;
       margin: 0 auto;
@@ -40,22 +79,6 @@ overflow: hidden;
     }
   }
   &_info {
-    p {
-      margin-top: 5px;
-      color: #374957;
-      font-size: 16px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: 18px; /* 112.5% */
-
-
-
-      white-space: nowrap; /* Запрещаем перенос строк */
-      overflow: hidden; /* Обрезаем все, что не помещается в область */
-      padding: 5px; /* Поля вокруг текста */
-      text-overflow: ellipsis;
-      border-radius: 5px;
-    }
     h4 {
       font-style: normal;
       font-weight: 700;
@@ -65,23 +88,21 @@ overflow: hidden;
     }
   }
   &_price {
-    margin-top: 5px;
+    margin-top: 20px;
     display: flex;
     & > p {
+      color: var(--secondary-500, #1A202C);
+      font-size: 20px;
       font-style: normal;
       font-weight: 700;
-      font-size: 14px;
-      line-height: 17px;
-      color: #000000;
+      line-height: normal;
 
       span {
+        color: var(--secondary-300, #90A3BF);
+        font-size: 14px;
         font-style: normal;
-        font-weight: 500;
-        font-size: 11px;
-        line-height: 13px;
-        text-transform: uppercase;
-        color: #bdbdbd;
-        margin-right: 10px;
+        font-weight: 700;
+        line-height: normal;
       }
     }
     & > h4 {
@@ -108,6 +129,25 @@ overflow: hidden;
   }
 }
 
-.batman-ui__card:hover {
-  box-shadow: 0px 14px 20px rgba(30, 114, 227, 0.12);
+.batman-ui__card_more-info--button{
+  display: flex;
+  margin-top: 20px;
+  &>*:not(:last-child){
+    margin-right: 10px;
+  }
 }
+
+
+@media only screen and (max-width: 1031px) {
+
+  .batman-ui__card {
+    cursor: pointer;
+    max-width: calc(20% - 5px);
+    min-width: 250px;
+
+    & .batman-ui--button{
+      font-size: 12px;
+    }
+  }
+
+  }
