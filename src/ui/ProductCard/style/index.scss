@@ -8,20 +8,22 @@
   background: var(--primary-0, #FFF);
   padding: 10px;
   transition: 0.5s;
-  margin: 25px 10px;
   box-sizing: border-box;
   //border: 1px solid rgba(30, 114, 227, 0.12);
   //box-shadow: 1px 3px 15px rgba(0, 0, 0, 0.1);
 
   cursor: pointer;
-  max-width: calc(20% - 5px);
-  min-width: 317px;
+  margin: 5px 5px;
+  max-width: 15%;
+  min-width: 250px;
 
 
 &-header{
   display: flex;
   justify-content: space-between;
     margin-bottom: 10px;
+  width: 100%;
+
 
   &_title{
     color: var(--secondary-500, #1A202C);
@@ -30,6 +32,13 @@
     font-weight: 700;
     line-height: 20px; /* 30px */
     letter-spacing: -0.6px;
+
+
+    white-space: nowrap; /* Запрет переноса строк */
+    overflow: hidden; /* Скрытие лишнего контента */
+    text-overflow: ellipsis; /* Добавление троеточия */
+    /* Дополнительные стили по вашему выбору */
+    width: 100%;
 
     &>span{
 
@@ -40,6 +49,8 @@
       line-height: 150%; /* 21px */
       letter-spacing: -0.28px;
       margin-top: 5px;
+
+
     }
   }
 }
@@ -162,6 +173,12 @@ overflow: hidden;
   }
 
 @media only screen and (max-width: 565px) {
+
+  .batman-ui__card-header_title {
+    max-width: 200px;
+    position: absolute;
+    width: 100%;
+  }
   .batman-ui__card {
     min-height: 100px;
     height: 170px;
@@ -185,6 +202,7 @@ overflow: hidden;
   .batman-ui__card_image{
     height: 100px;
     width: 120px;
+    margin-top: 50px;
   }
   .batman-ui__card_info--flex{
     width: calc(100% - 55px);

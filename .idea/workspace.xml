@@ -9,25 +9,17 @@
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/0.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/1.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/1.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/10.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/10.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/11.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/11.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/12.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/12.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/3.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/3.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/4.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/4.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/5.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/5.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/6.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/6.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/7.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/7.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/9.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/9.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack.old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/tsconfig.tsbuildinfo" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/tsconfig.tsbuildinfo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/ProductDetail/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ProductDetail/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pages/ProductDetail/style/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ProductDetail/style/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/components/Layout/style/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/components/Layout/style/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/Banner/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/Banner/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/Banner/stytle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/Banner/stytle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/Banner/stytle.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/Banner/stytle.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/Button/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/Button/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/Button/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/Button/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ui/ProductCard/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/ProductCard/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ui/ProductCard/style/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/ProductCard/style/index.scss" afterDir="false" />
     </list>
@@ -101,7 +93,7 @@
       <workItem from="1692465464185" duration="41000" />
       <workItem from="1692466395532" duration="295000" />
       <workItem from="1692635406122" duration="20672000" />
-      <workItem from="1692815915143" duration="28441000" />
+      <workItem from="1692815915143" duration="30143000" />
     </task>
     <servers />
   </component>

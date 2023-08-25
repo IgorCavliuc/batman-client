@@ -70,12 +70,12 @@ const characteristicsProduct =selectProduct?.detaleObject
                   {selectProduct?.discount?.type}
                 </span>:null}
               </p>{" "}
-                <h4>
-                  ≈  {(typeof selectProduct?.price === "string" ? selectProduct?.price : selectProduct?.price?.[1]?.value) ?? "No Price"}{" "}  {selectProduct?.price[1]?.currency ?  selectProduct?.price?.[1]?.currency : "No Currency"}
-                </h4>
-                <h4>
-                  ≈  {(typeof selectProduct?.price === "string" ? selectProduct?.price : selectProduct?.price?.[2]?.value) ?? "No Price"}{" "}  {selectProduct?.price[2]?.currency ?  selectProduct?.price?.[2]?.currency : "No Currency"}
-                </h4>
+                {selectProduct?.price?.[1]?.value ? <h4>
+                  ≈  {(typeof selectProduct?.price === "string" ? selectProduct?.price : selectProduct?.price?.[1]?.value) ?? null}{" "}  {selectProduct?.price[1]?.currency ?  selectProduct?.price?.[1]?.currency : null}
+                </h4> : null}
+                {selectProduct?.price?.[2]?.value ?<h4>
+                  ≈  {(typeof selectProduct?.price === "string" ? selectProduct?.price : selectProduct?.price?.[2]?.value) ?? null}{" "}  {selectProduct?.price[2]?.currency ?  selectProduct?.price?.[2]?.currency : null}
+                </h4>:null}
               </div>
             </>
           ) : null}

@@ -50,7 +50,6 @@ const ProductCard = ({
     navigate(location?.pathname + "/" + _id);
 // eslint-disable-next-line
   }, []);
-
   return (
     // <NavLink to={location?.pathname + "/"+_id}>
     <div  className="batman-ui__card">
@@ -80,7 +79,7 @@ const ProductCard = ({
       <div className="batman-ui__card_price">
         <span>Price:</span>
         <p>
-            {(typeof price === "string" ? price : price?.[0]?.value) ?? "No Price"}{" "} <span> {price[0]?.currency ?  price?.[0]?.currency : "No Currency"}</span>
+            {(typeof price === "string" ? price : price?.[0]?.value) ?? "Null"}{" "} <span> {price[0]?.currency ?  price?.[0]?.currency : null}</span>
 
         </p>
         {discount?.value ? (
