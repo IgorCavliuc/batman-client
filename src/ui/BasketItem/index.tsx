@@ -13,7 +13,9 @@ const BasketItem = ({ id, image, title, description, detaleObject,countProduct, 
           <img src={image} alt={'image'+id} />
         </div>
       </div>
-      <div  className="batman-store--ui__basket-item_data">
+
+      <div  className="batman-store--ui__basket-item_data--wrapper">
+        <div  className="batman-store--ui__basket-item_data">
         <p>{title}</p>
         <h1 title={description}>{description}</h1>
         <Counter count={countProduct} id={id} decrement={decrement} increment={increment}/>
@@ -21,6 +23,7 @@ const BasketItem = ({ id, image, title, description, detaleObject,countProduct, 
       <div  className="batman-store--ui__basket-item_data batman-store--ui__basket-item_data--price">
         <p>Price</p>
         <h4>{totalCost} <span>{price?.[0]?.currency.toUpperCase()}</span></h4>
+      </div>
       </div>
     </div>
   );

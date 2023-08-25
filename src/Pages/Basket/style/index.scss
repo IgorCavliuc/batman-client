@@ -1,3 +1,22 @@
 .batman-store--ui__basket-page {
   margin: 50px;
+
+  &>h1{
+    //color: var(--primary-500, #3563E9);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 48px */
+    letter-spacing: -0.96px;
+    margin-bottom: 20px;
+  }
+}
+
+
+@media only screen and (max-width: 800px) {
+
+  .batman-store--ui__basket-page {
+    margin: 0;
+  }
+
 }

@@ -3,6 +3,10 @@
   align-items: center;
   margin-right: 20px;
 }
+.batman-store--ui__basket-item_data--wrapper{
+  display: flex;
+  align-items: center;
+}
 .batman-store--ui__basket-item {
   border-bottom: 1px solid #90a3bf;
   width: 100%;
@@ -32,7 +36,7 @@
   }
 }
 .batman-store--ui__basket-item_data{
-  overflow: hidden;
+  //overflow: hidden;
   width: 55%;
 
   &>p{
@@ -59,4 +63,38 @@
 .batman-store--ui__basket-item_data--price{
   margin-left: auto;
   width: auto;
+}
+
+@media only screen and (max-width: 800px) {
+.batman-store--ui__basket-item_left--wrapper{
+  margin-right: 5px;
+}
+  .batman-store--ui__basket-item-image{
+    margin: 5px;
+  }
+
+}
+
+@media only screen and (max-width: 500px) {
+  .batman-store--ui__basket-item_data--wrapper{
+flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+height: 80px;
+    width: 100%;
+  }
+  .batman-store--ui__counter{
+    margin: 0 auto;
+  }
+  .batman-store--ui__basket-item_data > h1{
+    display: none;
+  }
+  .batman-store--ui__basket-item_data{
+    width: 100%;
+  }
+  .batman-store--ui__basket-item_data > p{
+    margin-bottom: 5px;
+  }
+
 }
