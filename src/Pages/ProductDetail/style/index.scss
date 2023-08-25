@@ -5,6 +5,54 @@
 .batman-store__product {
   display: flex;
   width: 100%;
+
+  //.carousel .slider {
+  //  width: 100%;
+  //  max-width: 500px;
+  //}
+  & .carousel-slider{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  & .carousel-root{
+    width: 100%;
+
+  }
+  & .carousel{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+
+  & .slide > div > img{
+    border-radius: 30px;
+    overflow: hidden;
+    height: 400px;
+    object-fit: cover;
+  }
+
+  & .carousel .thumb > img {
+    overflow: hidden;
+    object-fit: cover;
+    height: 80px;
+    width: 80px;
+  }
+  & .carousel.carousel-slider .control-arrow:hover{
+    background: transparent;
+  }
+  & .carousel.carousel-slider .control-arrow{
+    width: 50px;
+  }
+  & .slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &  .carousel-status{
+    display: none;
+  }
 }
 .batman-store__product--info-data {
   margin-top: 10px;
@@ -60,53 +108,7 @@
     }
   }
 }
-//.carousel .slider {
-//  width: 100%;
-//  max-width: 500px;
-//}
-.carousel-slider{
-  display: flex;
-  justify-content: center;
-box-sizing: border-box;
-}
-.carousel-root{
-  width: 100%;
 
-}
-.carousel{
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  box-sizing: border-box;
-}
-
-.slide > div > img{
-  border-radius: 30px;
-  overflow: hidden;
-  height: 400px;
-  object-fit: cover;
-}
-
-.carousel .thumb > img {
-  overflow: hidden;
-  object-fit: cover;
-  height: 80px;
-  width: 80px;
-}
-.carousel.carousel-slider .control-arrow:hover{
-background: transparent;
-}
-.carousel.carousel-slider .control-arrow{
-  width: 50px;
-}
-.slide{
-  display: flex;
-align-items: center;
-  justify-content: center;
-}
-.carousel-status{
-  display: none;
-}
 .batman-store__product--info-more--detale__row{
   display: flex;
 }

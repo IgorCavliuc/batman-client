@@ -239,6 +239,7 @@ a.rapidmd_cabinet__header__language {
   background: darkred;
 }
 @media only screen and (max-width: 1170px){
+
   .rapidmd_cabinet__content{
     margin: 80px 10px 0;
   }
@@ -255,6 +256,7 @@ a.rapidmd_cabinet__header__language {
   }
   .rapidmd_cabinet__header{
     z-index: 201;
+    padding: 0 20px;
   }
 
 .rapidmd_cabinet__header > .rapidmd_cabinet__header__new_policy{

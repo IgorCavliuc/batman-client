@@ -90,20 +90,26 @@ overflow: hidden;
   &_price {
     margin-top: 10px;
     display: flex;
+   &>  span {
+      color: var(--secondary-300, #90A3BF);
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 700;
+     margin-top: auto;
+     margin-right: 5px;
+    }
     & > p {
       color: var(--secondary-500, #1A202C);
       font-size: 20px;
       font-style: normal;
       font-weight: 700;
-      line-height: normal;
+      line-height: 10px;
+      margin-top: auto;
+      &>span{
+  text-transform: uppercase;
+  font-size: 12px;
+}
 
-      span {
-        color: var(--secondary-300, #90A3BF);
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-      }
     }
     & > h4 {
       color: #e95555;
@@ -117,8 +123,6 @@ overflow: hidden;
   }
   &_more-info {
     margin-top: 5px;
-    height: 50px;
-    overflow: hidden;
     & > p {
       font-style: normal;
       font-weight: 400;
@@ -184,11 +188,42 @@ overflow: hidden;
   }
   .batman-ui__card_info--flex{
     width: calc(100% - 55px);
+      height: 60%;
+      margin-top: auto;
   }
   .batman-ui__card-header > svg{
     position: absolute;
     top: 15px;
     right: 15px;
+  }
+  .batman-ui__card_more-info--button{
+    margin-top: 10px;
+  }
+
+}
+
+@media only screen and (max-width: 380px) {
+
+  .batman-ui__card_price > p {
+    font-size: 16px;
+
+    span {
+      font-size: 12px;
+    }
+  }
+  .batman-ui__card_more-info--button{
+    flex-direction: column;
+
+    & .batman-ui--button{
+      height: 34px;
+    }
+    &>*:not(:last-child){
+      margin: 0;
+      margin-bottom: 5px;
+    }
+  }
+  .batman-ui__card_info--flex {
+    height: 80%;
   }
 
 }

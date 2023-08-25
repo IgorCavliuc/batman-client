@@ -76,9 +76,11 @@ const ProductCard = ({
         ) : null}
       </div>
 
+      <div className='batman-ui__card_info--flex'>
       <div className="batman-ui__card_price">
+        <span>Price:</span>
         <p>
-          <span>Price:</span>  {(typeof price === "string" ? price : price?.[0]?.value) ?? "No Price"}{" "}  {price[0]?.currency ?  price?.[0]?.currency : "No Currency"}
+            {(typeof price === "string" ? price : price?.[0]?.value) ?? "No Price"}{" "} <span> {price[0]?.currency ?  price?.[0]?.currency : "No Currency"}</span>
 
         </p>
         {discount?.value ? (
@@ -94,9 +96,11 @@ const ProductCard = ({
             -{discount.value} {discount.type}
           </h4>
         ) : null}      </div>
+
       <div className="batman-ui__card_more-info batman-ui__card_more-info--button">
         <Button children="View more" onClick={handleSelectProduct} theme='transparent'/>
-        <Button children='Add to Basket'/>
+        <Button children='In basket'/>
+      </div>
       </div>
     </div>
     // </NavLink>

@@ -1,5 +1,4 @@
 import "./stytle.scss";
-import { Button } from "../";
 const AvatarBanner = require("../img/litlle-batman.png");
 const TeamIco = require("../img/comand.png");
 const OfficeManIco = require("../img/avatar-man.png");
@@ -14,7 +13,7 @@ const Banner = () => {
       data-bs-touch="true"
     >
       <div className="carousel-inner">
-        <div className="carousel-item active" data-bs-interval="5000">
+        <div className="carousel-item active" data-bs-interval="20000">
           <div className="batman-store__banner w-100">
             <div className="batman-store__banner_container">
               <h3>Artificial Intelligence for Marketing</h3>
@@ -22,12 +21,11 @@ const Banner = () => {
                 Learn how artificial intelligence is reshaping the way marketing
                 is done at both large and small organizations.
               </p>
-              <Button>Learn now</Button>
             </div>
-            <img src={AvatarBanner} alt="AvatarBanner" />
+            <img src={AvatarBanner} alt="AvatarBanner"  className='batman-store__banner--carousel'/>
           </div>
         </div>
-        <div className="carousel-item" data-bs-interval="5000">
+        <div className="carousel-item" data-bs-interval="20000">
           <div className="batman-store__banner batman-store__banner--orange  w-100">
             <div className="batman-store__banner_container">
               <h3>Artificial Intelligence for Marketing</h3>
@@ -35,12 +33,11 @@ const Banner = () => {
                 Learn how artificial intelligence is reshaping the way marketing
                 is done at both large and small organizations.
               </p>
-              <Button>Learn now</Button>
             </div>
-            <img src={TeamIco} alt="TeamIco" />
+            <img src={TeamIco} alt="TeamIco" className='batman-store__banner--carousel'/>
           </div>
         </div>
-        <div className="carousel-item" data-bs-interval="5000">
+        <div className="carousel-item" data-bs-interval="20000">
           <div className="batman-store__banner batman-store__banner--yellow w-100">
             <div className="batman-store__banner_container">
               <h3>Artificial Intelligence for Marketing</h3>
@@ -48,9 +45,8 @@ const Banner = () => {
                 Learn how artificial intelligence is reshaping the way marketing
                 is done at both large and small organizations.
               </p>
-              <Button>Learn now</Button>
             </div>
-            <img src={OfficeManIco} alt="AvatarBanner" />
+            <img src={OfficeManIco} alt="AvatarBanner" className='batman-store__banner--carousel'/>
           </div>
         </div>
       </div>

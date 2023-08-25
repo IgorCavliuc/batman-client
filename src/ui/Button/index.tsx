@@ -32,7 +32,7 @@ const Button = ({
   return (
     <button className={ButtonClass} onClick={handleClick}>
       <img src={ico} alt="" />
-      {children}
+      <p>{children}</p>
     </button>
   );
 };

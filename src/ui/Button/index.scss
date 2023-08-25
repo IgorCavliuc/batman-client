@@ -17,6 +17,12 @@
   transition: 0.5s;
   border-radius: 4px;
 
+  &> p{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
   &:hover {
     box-shadow: 1px 3px 15px rgba(0, 0, 0, 0.1);
   }
@@ -24,16 +30,33 @@
   &--theme {
     &-added {
       border: 2px solid var(--primary-500, #3563E9);
-      color: #2f3ced;
+
+
+      &>p {
+        color: #2f3ced;
+      }
     }
     &-blue {
   background: var(--primary-500, #3563E9);
-      color: white;
+      &>p {
+        color: white;
+      }
+    }
+    &-white {
+      background: white;
+
+      &>p {
+        color: #11142d;
+      }
     }
     &-transparent {
-      color: var(--primary-500, #3563E9);
+
       border: 1px solid var(--primary-500, #3563E9);
       background: transparent;
+
+      &>p {
+        color: var(--primary-500, #3563E9);
+      }
     }
   }
 }
