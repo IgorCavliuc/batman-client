@@ -53,7 +53,7 @@ const characteristicsProduct =selectProduct?.detaleObject
 
         </div>
 
-        <div className="batman-store__product--info">
+        <div className="batman-store__product--info  ">
           {selectProduct?.title ? <h1>{selectProduct?.title}</h1> : null}
           {selectProduct?.rating ? (
             <p>
@@ -62,13 +62,21 @@ const characteristicsProduct =selectProduct?.detaleObject
           ) : null}
           {selectProduct?.price ? (
             <>
+              <div className='batman-store__product--info--price'>
               <p>
-                {(typeof selectProduct?.price === "string" ? selectProduct?.price : selectProduct?.price?.[0]?.value) ?? "No Price"}{" "}  {selectProduct?.price[0]?.currency ?  selectProduct?.price?.[0]?.currency : "No Currency"}
+                {(typeof selectProduct?.price === "string" ? selectProduct?.price : selectProduct?.price?.[0]?.value) ?? "No Price"}{" "} <span>  {selectProduct?.price[0]?.currency ?  selectProduct?.price?.[0]?.currency : "No Currency"}</span>
                 {selectProduct?.discount? <span>
                   -{selectProduct?.discount?.value}
                   {selectProduct?.discount?.type}
                 </span>:null}
               </p>{" "}
+                <h4>
+                  ≈  {(typeof selectProduct?.price === "string" ? selectProduct?.price : selectProduct?.price?.[1]?.value) ?? "No Price"}{" "}  {selectProduct?.price[1]?.currency ?  selectProduct?.price?.[1]?.currency : "No Currency"}
+                </h4>
+                <h4>
+                  ≈  {(typeof selectProduct?.price === "string" ? selectProduct?.price : selectProduct?.price?.[2]?.value) ?? "No Price"}{" "}  {selectProduct?.price[2]?.currency ?  selectProduct?.price?.[2]?.currency : "No Currency"}
+                </h4>
+              </div>
             </>
           ) : null}
 
@@ -105,15 +113,22 @@ const characteristicsProduct =selectProduct?.detaleObject
 
           {selectProduct?.description ? (
             <div className="batman-store__product--info-data">
-              <h4>{selectProduct?.description}</h4>{" "}
+                {selectProduct?.description?.split("-").map((part:any, index:number) => (
+                  <p key={index}>
+                    -{part}
+                    <br />
+                    <br />
+                  </p>
+                ))}
             </div>
           ) : null}
 
+          <div className='batman-store__product--info-more batman-store__product--info--number-phone'>
+            {selectProduct?.phoneNumber ? <p>{selectProduct?.phoneNumber}</p>:null}
+          </div>
+
           <div className='batman-store__product--info-more batman-store__product--info--location'>
             {selectProduct?.regionObj ? <p>{selectProduct?.regionObj?.country} <span>{selectProduct?.regionObj?.city}</span></p>:null}
-          </div>
-          <div className='batman-store__product--info-more batman-store__product--info--number-phone'>
-            {selectProduct?.phoneNumber ? <p>{selectProduct?.phoneNumber} <span>{selectProduct?.phoneNumber}</span></p>:null}
           </div>
         </div>
 

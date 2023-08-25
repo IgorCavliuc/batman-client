@@ -21,7 +21,7 @@
 &-header{
   display: flex;
   justify-content: space-between;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 
   &_title{
     color: var(--secondary-500, #1A202C);
@@ -88,7 +88,7 @@ overflow: hidden;
     }
   }
   &_price {
-    margin-top: 20px;
+    margin-top: 10px;
     display: flex;
     & > p {
       color: var(--secondary-500, #1A202C);
@@ -136,7 +136,12 @@ overflow: hidden;
     margin-right: 10px;
   }
 }
-
+.batman-ui__card_info--flex{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
 
 @media only screen and (max-width: 1031px) {
 
@@ -151,3 +156,39 @@ overflow: hidden;
   }
 
   }
+
+@media only screen and (max-width: 565px) {
+  .batman-ui__card {
+    min-height: 100px;
+    height: 170px;
+    //max-height:100%;
+    display: flex;
+    width: 100%;
+    min-width: 100%;
+    margin: 0 0 10px 0;
+    justify-content: space-between;
+    border-bottom: 1px solid  #90A3BF;;
+    border-radius: 0;
+    position: relative;
+
+    &>*:not(:last-child){
+      margin-right: 15px;
+    }
+  }
+  .batman-ui__card-header{
+    margin-bottom: 5px;
+  }
+  .batman-ui__card_image{
+    height: 100px;
+    width: 120px;
+  }
+  .batman-ui__card_info--flex{
+    width: calc(100% - 55px);
+  }
+  .batman-ui__card-header > svg{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+  }
+
+}

@@ -5,11 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcb89bec-99f5-40fa-9034-904220169266" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Pages/icons/ImageIco.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/icons/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/icons/ImageIco.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/icons/TransLike.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/icons/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/0.pack" afterDir="false" />
@@ -23,154 +18,23 @@
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/5.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/5.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/6.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/6.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/7.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/7.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/8.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/8.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/9.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/9.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack.old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/tsconfig.tsbuildinfo" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/tsconfig.tsbuildinfo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/runtime/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/AsyncGenerator.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/AsyncGenerator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/OverloadYield.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/OverloadYield.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/applyDecs.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/applyDecs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/applyDecs2203.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/applyDecs2203.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/asyncGeneratorDelegate.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/asyncGeneratorDelegate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/asyncIterator.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/asyncIterator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/awaitAsyncGenerator.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/awaitAsyncGenerator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/checkInRHS.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/checkInRHS.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/defineAccessor.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/defineAccessor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/AsyncGenerator.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/AsyncGenerator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/OverloadYield.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/OverloadYield.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/applyDecs.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/applyDecs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/applyDecs2203.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/applyDecs2203.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/asyncGeneratorDelegate.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/asyncGeneratorDelegate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/asyncIterator.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/asyncIterator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/awaitAsyncGenerator.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/awaitAsyncGenerator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/checkInRHS.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/checkInRHS.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/defineAccessor.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/defineAccessor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/initializerWarningHelper.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/initializerWarningHelper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/iterableToArrayLimit.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/iterableToArrayLimit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/iterableToArrayLimitLoose.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/iterableToArrayLimitLoose.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/jsx.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/jsx.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/objectSpread2.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/objectSpread2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/regeneratorRuntime.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/regeneratorRuntime.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/typeof.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/typeof.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/wrapRegExp.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/esm/wrapRegExp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/initializerWarningHelper.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/initializerWarningHelper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/iterableToArrayLimit.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/iterableToArrayLimit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/iterableToArrayLimitLoose.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/iterableToArrayLimitLoose.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/jsx.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/jsx.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/objectSpread2.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/objectSpread2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/regeneratorRuntime.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/regeneratorRuntime.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/typeof.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/typeof.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/wrapRegExp.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/runtime/helpers/wrapRegExp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/runtime/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@emotion/react/dist/declarations/types/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@emotion/react/dist/declarations/types/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@emotion/react/dist/declarations/types/jsx-namespace.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@emotion/react/dist/declarations/types/jsx-namespace.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@emotion/react/dist/emotion-react.browser.esm.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@emotion/react/dist/emotion-react.browser.esm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@emotion/react/dist/emotion-react.cjs.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@emotion/react/dist/emotion-react.cjs.dev.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@emotion/react/dist/emotion-react.esm.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@emotion/react/dist/emotion-react.esm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@emotion/react/dist/emotion-react.worker.esm.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@emotion/react/dist/emotion-react.worker.esm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@emotion/react/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@emotion/react/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@emotion/react/types/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@emotion/react/types/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@emotion/react/types/jsx-namespace.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@emotion/react/types/jsx-namespace.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@floating-ui/core/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@floating-ui/core/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@floating-ui/core/dist/floating-ui.core.browser.min.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@floating-ui/core/dist/floating-ui.core.browser.min.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@floating-ui/core/dist/floating-ui.core.browser.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@floating-ui/core/dist/floating-ui.core.browser.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@floating-ui/core/dist/floating-ui.core.esm.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@floating-ui/core/dist/floating-ui.core.esm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@floating-ui/core/dist/floating-ui.core.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@floating-ui/core/dist/floating-ui.core.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@floating-ui/core/dist/floating-ui.core.umd.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@floating-ui/core/dist/floating-ui.core.umd.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@floating-ui/core/dist/floating-ui.core.umd.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@floating-ui/core/dist/floating-ui.core.umd.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@floating-ui/core/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@floating-ui/core/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@floating-ui/core/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@floating-ui/core/src/_babel.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@floating-ui/core/src/detectOverflow.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@floating-ui/core/src/detectOverflow.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@floating-ui/core/src/enums.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@floating-ui/core/src/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@floating-ui/core/src/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@floating-ui/core/src/middleware/arrow.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@floating-ui/core/src/middleware/arrow.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@floating-ui/core/src/middleware/autoPlacement.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@floating-ui/core/src/middleware/autoPlacement.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@floating-ui/core/src/middleware/flip.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@floating-ui/core/src/middleware/flip.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@floating-ui/core/src/middleware/hide.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@floating-ui/core/src/middleware/hide.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@floating-ui/core/src/middleware/inline.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@floating-ui/core/src/middleware/inline.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@floating-ui/core/src/middleware/offset.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@floating-ui/core/src/middleware/offset.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@floating-ui/core/src/middleware/shift.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@floating-ui/core/src/middleware/shift.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@floating-ui/core/src/middleware/size.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@floating-ui/core/src/middleware/size.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@floating-ui/core/src/types.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@floating-ui/core/src/types.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@floating-ui/core/src/utils/expandPaddingObject.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@floating-ui/core/src/utils/getAlignment.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@floating-ui/core/src/utils/getAlignmentSides.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@floating-ui/core/src/utils/getCrossAxis.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@floating-ui/core/src/utils/getExpandedPlacements.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@floating-ui/core/src/utils/getLengthFromAxis.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@floating-ui/core/src/utils/getMainAxisFromPlacement.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@floating-ui/core/src/utils/getOppositeAlignmentPlacement.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@floating-ui/core/src/utils/getOppositeAxisPlacements.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@floating-ui/core/src/utils/getOppositePlacement.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@floating-ui/core/src/utils/getPaddingObject.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@floating-ui/core/src/utils/getSide.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@floating-ui/core/src/utils/math.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@floating-ui/core/src/utils/rectToClientRect.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@floating-ui/core/src/utils/within.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@floating-ui/dom/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@floating-ui/dom/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@floating-ui/dom/dist/floating-ui.dom.browser.min.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@floating-ui/dom/dist/floating-ui.dom.browser.min.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@floating-ui/dom/dist/floating-ui.dom.browser.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@floating-ui/dom/dist/floating-ui.dom.browser.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@floating-ui/dom/dist/floating-ui.dom.esm.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@floating-ui/dom/dist/floating-ui.dom.esm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@floating-ui/dom/dist/floating-ui.dom.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@floating-ui/dom/dist/floating-ui.dom.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@floating-ui/dom/dist/floating-ui.dom.umd.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@floating-ui/dom/dist/floating-ui.dom.umd.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@floating-ui/dom/dist/floating-ui.dom.umd.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@floating-ui/dom/dist/floating-ui.dom.umd.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@floating-ui/dom/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@floating-ui/dom/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@floating-ui/dom/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@floating-ui/dom/src/autoUpdate.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@floating-ui/dom/src/autoUpdate.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@floating-ui/dom/src/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@floating-ui/dom/src/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@floating-ui/dom/src/types.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@floating-ui/dom/src/types.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@floating-ui/dom/src/utils/convertOffsetParentRelativeRectToViewportRelativeRect.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@floating-ui/dom/src/utils/getClippingRect.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@floating-ui/dom/src/utils/getComputedStyle.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@floating-ui/dom/src/utils/getCssDimensions.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@floating-ui/dom/src/utils/getCssDimensions.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@floating-ui/dom/src/utils/getDimensions.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@floating-ui/dom/src/utils/getDocumentElement.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@floating-ui/dom/src/utils/getNearestOverflowAncestor.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@floating-ui/dom/src/utils/getNodeScroll.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@floating-ui/dom/src/utils/getOffsetParent.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@floating-ui/dom/src/utils/getOverflowAncestors.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@floating-ui/dom/src/utils/getParentNode.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@floating-ui/dom/src/utils/getScale.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@floating-ui/dom/src/utils/getWindow.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@floating-ui/dom/src/utils/is.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@floating-ui/dom/src/utils/math.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@floating-ui/dom/src/utils/node.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@floating-ui/dom/src/utils/userAgent.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/csstype/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/csstype/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/csstype/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/csstype/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/csstype/index.js.flow" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/csstype/index.js.flow" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/csstype/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/csstype/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Navbar/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Navbar/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pages/Product/style/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Product/style/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/ProductDetail/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ProductDetail/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pages/ProductDetail/style/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ProductDetail/style/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/SignIn/SignIn.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/SignIn/SignIn.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/SignUp/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/SignUp/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/components/Layout/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/components/Layout/Header.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pages/components/Layout/icons/Basket.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/components/Layout/icons/Basket.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pages/components/Layout/icons/Bell.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/components/Layout/icons/Bell.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/components/Layout/style/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/components/Layout/style/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/ico/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/ico/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/ico/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/ico/2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/ico/BlackLogoBatman.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/ico/BlackLogoBatman.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/ico/admin_asig.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/ico/admin_asig.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/ico/key.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/ico/key.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/ico/logon.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/ico/logon.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/ico/logonbat.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/ico/logonbat.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/ico/logos23.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/ico/logos23.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/ico/mainlogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/ico/mainlogo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/ico/notauthlogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/ico/notauthlogo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/ico/white-geometric.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/ico/white-geometric.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/type.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/type.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/Button/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/Button/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/CarouselComponent/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/CarouselComponent/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ui/ProductCard/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/ProductCard/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ui/ProductCard/style/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/ProductCard/style/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/ico/key.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/ico/key.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/icons/TransLike.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/icons/TransLike.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/img/arrow-select.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/img/arrow-select.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/img/home.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/img/home.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/img/small-right.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/img/small-right.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/img/white-arrow.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/img/white-arrow.svg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -242,7 +106,7 @@
       <workItem from="1692465464185" duration="41000" />
       <workItem from="1692466395532" duration="295000" />
       <workItem from="1692635406122" duration="20672000" />
-      <workItem from="1692815915143" duration="17704000" />
+      <workItem from="1692815915143" duration="23288000" />
     </task>
     <servers />
   </component>

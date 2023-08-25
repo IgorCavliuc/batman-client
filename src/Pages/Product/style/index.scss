@@ -21,7 +21,8 @@
   position: fixed;
   right: 0;
   top: 0;
-  width: 100%
+  width: 100%;
+  z-index: 300;
 }
 
 @media only screen and (max-width: 1031px) {

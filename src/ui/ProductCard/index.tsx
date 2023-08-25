@@ -54,6 +54,7 @@ const ProductCard = ({
   return (
     // <NavLink to={location?.pathname + "/"+_id}>
     <div  className="batman-ui__card">
+      <div >
       <div className="batman-ui__card-header">
         <p className='batman-ui__card-header_title'>{detaleObject?.brand ?? title} <br/>{detaleObject?.brand && detaleObject?.model ? <span>{detaleObject?.model}</span>: null }</p>
 
@@ -64,6 +65,7 @@ const ProductCard = ({
           <div className="batman-ui__card_image-flex">
             <ImageIco/></div>}
       </div>
+      </div>
       <div className="batman-ui__card_info">
         {brand || model ? (
           <h4>
@@ -73,6 +75,7 @@ const ProductCard = ({
           </h4>
         ) : null}
       </div>
+
       <div className="batman-ui__card_price">
         <p>
           <span>Price:</span>  {(typeof price === "string" ? price : price?.[0]?.value) ?? "No Price"}{" "}  {price[0]?.currency ?  price?.[0]?.currency : "No Currency"}
@@ -83,7 +86,14 @@ const ProductCard = ({
             -{discount.value} {discount.type}
           </h4>
         ) : null}
-      </div>
+
+
+
+        {discount?.value ? (
+          <h4>
+            -{discount.value} {discount.type}
+          </h4>
+        ) : null}      </div>
       <div className="batman-ui__card_more-info batman-ui__card_more-info--button">
         <Button children="View more" onClick={handleSelectProduct} theme='transparent'/>
         <Button children='Add to Basket'/>
