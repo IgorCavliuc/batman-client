@@ -16,7 +16,8 @@ import TextArea from "./TextArea";
 import BigLoader from "./BigLoader";
 import Rating from "./Rating";
 import LanguageSwitcher from "./LanguageSwitcher";
-import CarouselComponent from './CarouselComponent'
+import CarouselComponent from "./CarouselComponent";
+import Counter from './Counter'
 
 export {
   NavigationItem,
@@ -37,5 +38,6 @@ export {
   BigLoader,
   Rating,
   LanguageSwitcher,
-  CarouselComponent
+  CarouselComponent,
+  Counter
 };

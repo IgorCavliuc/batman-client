@@ -1,16 +1,18 @@
 import { Bell, NewPolicy, Basket } from "./icons";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { connect } from "react-redux";
 import BurgerMenu from "../../../ui/Burger";
 
-const Header = ({ user , handleMenuOpen, openMenu, basketItem}: any) => {
+const Header = ({ user, handleMenuOpen, openMenu, basketItem }: any) => {
+
+
+
+  const countAllProduct = basketItem?.reduce((total:any, item:any) => +total + +item?.countProduct, 0);
 
   return (
     <header className="rapidmd_cabinet__header">
-      <div className="rapidmd_cabinet__header--burger"
-
-      >
-      <BurgerMenu onClick={handleMenuOpen} open={openMenu}/>
+      <div className="rapidmd_cabinet__header--burger">
+        <BurgerMenu onClick={handleMenuOpen} open={openMenu} />
       </div>
       <a href="/" className="rapidmd_cabinet__header__language">
         RU
@@ -28,17 +30,22 @@ const Header = ({ user , handleMenuOpen, openMenu, basketItem}: any) => {
           2
         </span>
       </button>
-      <button className="rapidmd_cabinet__header__basket">
-        <Basket />
-        {basketItem?.length?
-        <span className="rapidmd_cabinet__header__basket__length">
-          {basketItem?.length}
-        </span> : null}
-      </button>
-      <button className="rapidmd_cabinet__header__user">
-        {user?.lastname?.slice(0, 1)}
-        {user?.name?.slice(0, 1)}
-      </button>
+      <Link to={"/basket"}>
+        <button className="rapidmd_cabinet__header__basket">
+          <Basket />
+          {countAllProduct ? (
+            <span className="rapidmd_cabinet__header__basket__length">
+              {countAllProduct}
+            </span>
+          ) : null}
+        </button>
+      </Link>
+      <Link to={"/profile"}>
+        <button className="rapidmd_cabinet__header__user">
+          {user?.lastname?.slice(0, 1)}
+          {user?.name?.slice(0, 1)}
+        </button>
+      </Link>
     </header>
   );
 };

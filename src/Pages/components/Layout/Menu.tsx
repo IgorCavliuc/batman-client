@@ -1,4 +1,4 @@
-import { ReactNode, useEffect, } from "react";
+import { ReactNode, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 
 import { LoginOut, NewPolicy } from "./icons";
@@ -8,13 +8,11 @@ import { INavigationType } from "../../../type";
 import { getAllNavigate } from "../../../server";
 import ClassNames from "classnames";
 
-const MenuItem: React.FC<{ to: string; children?: ReactNode; handleMenuOpen: ()=>void }> = ({
-  to,
-  children,
-handleMenuOpen
-}) => {
-
-
+const MenuItem: React.FC<{
+  to: string;
+  children?: ReactNode;
+  handleMenuOpen: () => void;
+}> = ({ to, children, handleMenuOpen }) => {
   return (
     <NavLink
       onClick={handleMenuOpen}
@@ -35,7 +33,12 @@ const loginOut = () => {
   window.location.reload();
 };
 
-const Menu = ({ navigation, setAllNavigation, openMenu,handleMenuOpen }: any) => {
+const Menu = ({
+  navigation,
+  setAllNavigation,
+  openMenu,
+  handleMenuOpen,
+}: any) => {
   useEffect(() => {
     getAllNavigate().then((res: any) => setAllNavigation(res));
   }, [setAllNavigation]);

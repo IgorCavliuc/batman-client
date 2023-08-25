@@ -17,7 +17,7 @@
   transition: 0.5s;
   border-radius: 4px;
 
-  &> p{
+  & > p {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -29,33 +29,31 @@
 
   &--theme {
     &-added {
-      border: 2px solid var(--primary-500, #3563E9);
+      border: 2px solid var(--primary-500, #3563e9);
 
-
-      &>p {
+      & > p {
         color: #2f3ced;
       }
     }
     &-blue {
-  background: var(--primary-500, #3563E9);
-      &>p {
+      background: var(--primary-500, #3563e9);
+      & > p {
         color: white;
       }
     }
     &-white {
       background: white;
 
-      &>p {
+      & > p {
         color: #11142d;
       }
     }
     &-transparent {
-
-      border: 1px solid var(--primary-500, #3563E9);
+      border: 1px solid var(--primary-500, #3563e9);
       background: transparent;
 
-      &>p {
-        color: var(--primary-500, #3563E9);
+      & > p {
+        color: var(--primary-500, #3563e9);
       }
     }
   }

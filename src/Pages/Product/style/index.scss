@@ -9,10 +9,9 @@
   }
 }
 
-
-.batman-store_product-list-wrapper--loading{
+.batman-store_product-list-wrapper--loading {
   align-items: center;
-  background-color: rgba(0,0,0,.1);
+  background-color: rgba(0, 0, 0, 0.1);
   bottom: 0;
   display: flex;
   height: 100vh;
@@ -26,8 +25,7 @@
 }
 
 @media only screen and (max-width: 1031px) {
-
-  .batman-store_product-list-wrapper{
+  .batman-store_product-list-wrapper {
     justify-content: center;
   }
 }

@@ -1,3 +1,3 @@
- import ImageIco from './ImageIco'
+import ImageIco from "./ImageIco";
 
- export {ImageIco}
+export { ImageIco };

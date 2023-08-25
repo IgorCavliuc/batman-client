@@ -1,4 +1,4 @@
- import ImageIco from './ImageIco'
- import TransLike from './TransLike'
+import ImageIco from "./ImageIco";
+import TransLike from "./TransLike";
 
- export {ImageIco,TransLike}
+export { ImageIco, TransLike };

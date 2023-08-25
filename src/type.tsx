@@ -22,8 +22,8 @@ export interface IProduct {
   stock: number;
   thumbnail: string;
   title: string;
-  detaleObject:any,
-  basketItemAdded:any
+  detaleObject: any;
+  basketItem: any;
 }
 
 // export interface  iUser{

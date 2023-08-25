@@ -22,7 +22,11 @@ const Banner = () => {
                 is done at both large and small organizations.
               </p>
             </div>
-            <img src={AvatarBanner} alt="AvatarBanner"  className='batman-store__banner--carousel'/>
+            <img
+              src={AvatarBanner}
+              alt="AvatarBanner"
+              className="batman-store__banner--carousel"
+            />
           </div>
         </div>
         <div className="carousel-item" data-bs-interval="20000">
@@ -34,7 +38,11 @@ const Banner = () => {
                 is done at both large and small organizations.
               </p>
             </div>
-            <img src={TeamIco} alt="TeamIco" className='batman-store__banner--carousel'/>
+            <img
+              src={TeamIco}
+              alt="TeamIco"
+              className="batman-store__banner--carousel"
+            />
           </div>
         </div>
         <div className="carousel-item" data-bs-interval="20000">
@@ -46,7 +54,11 @@ const Banner = () => {
                 is done at both large and small organizations.
               </p>
             </div>
-            <img src={OfficeManIco} alt="AvatarBanner" className='batman-store__banner--carousel'/>
+            <img
+              src={OfficeManIco}
+              alt="AvatarBanner"
+              className="batman-store__banner--carousel"
+            />
           </div>
         </div>
       </div>

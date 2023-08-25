@@ -2,7 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
   basketItem: [],
-  basketSelect: []
+  basketSelect: [],
 };
 
 const basketSlice = createSlice({
@@ -12,13 +12,16 @@ const basketSlice = createSlice({
     basketItemAdded: (state, action) => {
       state.basketItem.push(action.payload);
     },
+    basketItemRefresh: (state, action) => {
+      state.basketItem = action.payload;
+    },
     basketSelectChanged: (state, action) => {
       state.basketSelect = action.payload;
-    }
-  }
+    },
+  },
 });
 
-export const { basketItemAdded, basketSelectChanged } = basketSlice.actions;
+export const { basketItemAdded,basketItemRefresh, basketSelectChanged } = basketSlice.actions;
 
 export const selectBasketData = (state) => state.basket;
 

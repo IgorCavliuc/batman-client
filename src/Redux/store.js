@@ -10,7 +10,7 @@ const store = configureStore({
     userSlice,
     navigationSlice,
     createPostSlice,
-    basket
+    basket,
   },
 });
 

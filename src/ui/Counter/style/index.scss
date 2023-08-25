@@ -1,0 +1,18 @@
+.batman-store--ui__counter{
+  display: flex;
+  justify-content: space-between;
+  width: 70px;
+
+  &>button{
+    width: 16px;
+    height: 16px;
+    border: 0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: var(--primary-gray);
+    cursor: pointer;
+  }
+}

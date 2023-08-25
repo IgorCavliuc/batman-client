@@ -5,27 +5,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcb89bec-99f5-40fa-9034-904220169266" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Redux/Basket/basket.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/Basket/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/Basket/style/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/BasketItem/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/BasketItem/style/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/Counter/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/Counter/style/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/0.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/11.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/11.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/12.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/12.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/3.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/3.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/4.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/4.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/5.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/5.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/6.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/6.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/7.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/7.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/tsconfig.tsbuildinfo" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/tsconfig.tsbuildinfo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/AddPost/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/AddPost/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pages/Product/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Product/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Product/style/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Product/style/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pages/ProductDetail/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ProductDetail/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/ProductDetail/style/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ProductDetail/style/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pages/components/Layout/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/components/Layout/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/components/Layout/Menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/components/Layout/Menu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/components/Layout/icons/Basket.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/components/Layout/icons/Basket.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/components/Layout/icons/Bell.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/components/Layout/icons/Bell.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pages/components/Layout/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/components/Layout/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/components/Layout/style/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/components/Layout/style/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/icons/ImageIco.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/icons/ImageIco.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/icons/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/icons/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/Basket/basket.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/Basket/basket.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/type.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/type.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/Banner/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/Banner/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/Banner/stytle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/Banner/stytle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/Banner/stytle.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/Banner/stytle.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/Burger/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/Burger/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/Burger/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/Burger/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/Button/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/Button/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/CarouselComponent/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/CarouselComponent/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ui/ProductCard/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/ProductCard/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/ProductCard/style/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/ProductCard/style/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/icons/ImageIco.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/icons/ImageIco.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/icons/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/icons/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +58,9 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2QbgpVuThk3qPPsic1CLr9vKuz3" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -98,7 +117,7 @@
       <workItem from="1692465464185" duration="41000" />
       <workItem from="1692466395532" duration="295000" />
       <workItem from="1692635406122" duration="20672000" />
-      <workItem from="1692815915143" duration="32634000" />
+      <workItem from="1692815915143" duration="42032000" />
     </task>
     <servers />
   </component>

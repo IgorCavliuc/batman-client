@@ -5,7 +5,7 @@
   //max-width: 317px;
   min-height: 388px;
   border-radius: 10px;
-  background: var(--primary-0, #FFF);
+  background: var(--primary-0, #fff);
   padding: 10px;
   transition: 0.5s;
   box-sizing: border-box;
@@ -17,43 +17,37 @@
   max-width: 15%;
   min-width: 250px;
 
-
-&-header{
-  display: flex;
-  justify-content: space-between;
+  &-header {
+    display: flex;
+    justify-content: space-between;
     margin-bottom: 10px;
-  width: 100%;
-
-
-  &_title{
-    color: var(--secondary-500, #1A202C);
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 20px; /* 30px */
-    letter-spacing: -0.6px;
-
-
-    white-space: nowrap; /* Запрет переноса строк */
-    overflow: hidden; /* Скрытие лишнего контента */
-    text-overflow: ellipsis; /* Добавление троеточия */
-    /* Дополнительные стили по вашему выбору */
     width: 100%;
 
-    &>span{
-
-      color: var(--secondary-300, #90A3BF);
-      font-size: 14px;
+    &_title {
+      color: var(--secondary-500, #1a202c);
+      font-size: 20px;
       font-style: normal;
       font-weight: 700;
-      line-height: 150%; /* 21px */
-      letter-spacing: -0.28px;
-      margin-top: 5px;
+      line-height: 20px; /* 30px */
+      letter-spacing: -0.6px;
 
+      white-space: nowrap; /* Запрет переноса строк */
+      overflow: hidden; /* Скрытие лишнего контента */
+      text-overflow: ellipsis; /* Добавление троеточия */
+      /* Дополнительные стили по вашему выбору */
+      width: 100%;
 
+      & > span {
+        color: var(--secondary-300, #90a3bf);
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%; /* 21px */
+        letter-spacing: -0.28px;
+        margin-top: 5px;
+      }
     }
   }
-}
   p {
     margin: 0;
     padding: 0;
@@ -68,11 +62,11 @@
   &_image {
     text-align: center;
     height: 178px;
-overflow: hidden;
+    overflow: hidden;
     margin: 0 auto 5px;
     border-radius: 20px;
 
-    &-flex{
+    &-flex {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -80,7 +74,7 @@ overflow: hidden;
     }
 
     & > img {
-    object-fit: cover;
+      object-fit: cover;
       margin: 0 auto;
       width: 100%;
       height: 100%;
@@ -101,26 +95,25 @@ overflow: hidden;
   &_price {
     margin-top: 10px;
     display: flex;
-   &>  span {
-      color: var(--secondary-300, #90A3BF);
+    & > span {
+      color: var(--secondary-300, #90a3bf);
       font-size: 14px;
       font-style: normal;
       font-weight: 700;
-     margin-top: auto;
-     margin-right: 5px;
+      margin-top: auto;
+      margin-right: 5px;
     }
     & > p {
-      color: var(--secondary-500, #1A202C);
+      color: var(--secondary-500, #1a202c);
       font-size: 20px;
       font-style: normal;
       font-weight: 700;
       line-height: 10px;
       margin-top: auto;
-      &>span{
-  text-transform: uppercase;
-  font-size: 12px;
-}
-
+      & > span {
+        text-transform: uppercase;
+        font-size: 12px;
+      }
     }
     & > h4 {
       color: #e95555;
@@ -144,14 +137,14 @@ overflow: hidden;
   }
 }
 
-.batman-ui__card_more-info--button{
+.batman-ui__card_more-info--button {
   display: flex;
   margin-top: 20px;
-  &>*:not(:last-child){
+  & > *:not(:last-child) {
     margin-right: 10px;
   }
 }
-.batman-ui__card_info--flex{
+.batman-ui__card_info--flex {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -159,21 +152,18 @@ overflow: hidden;
 }
 
 @media only screen and (max-width: 1031px) {
-
   .batman-ui__card {
     cursor: pointer;
     max-width: calc(20% - 5px);
     min-width: 250px;
 
-    & .batman-ui--button{
+    & .batman-ui--button {
       font-size: 12px;
     }
   }
-
-  }
+}
 
 @media only screen and (max-width: 565px) {
-
   .batman-ui__card-header_title {
     max-width: 200px;
     position: absolute;
@@ -188,40 +178,38 @@ overflow: hidden;
     min-width: 100%;
     margin: 0 0 10px 0;
     justify-content: space-between;
-    border-bottom: 1px solid  #90A3BF;;
+    border-bottom: 1px solid #90a3bf;
     border-radius: 0;
     position: relative;
 
-    &>*:not(:last-child){
+    & > *:not(:last-child) {
       margin-right: 15px;
     }
   }
-  .batman-ui__card-header{
+  .batman-ui__card-header {
     margin-bottom: 5px;
   }
-  .batman-ui__card_image{
+  .batman-ui__card_image {
     height: 100px;
     width: 120px;
     margin-top: 50px;
   }
-  .batman-ui__card_info--flex{
+  .batman-ui__card_info--flex {
     width: calc(100% - 55px);
-      height: 60%;
-      margin-top: auto;
+    height: 60%;
+    margin-top: auto;
   }
-  .batman-ui__card-header > svg{
+  .batman-ui__card-header > svg {
     position: absolute;
     top: 15px;
     right: 15px;
   }
-  .batman-ui__card_more-info--button{
+  .batman-ui__card_more-info--button {
     margin-top: 10px;
   }
-
 }
 
 @media only screen and (max-width: 380px) {
-
   .batman-ui__card_price > p {
     font-size: 16px;
 
@@ -229,13 +217,13 @@ overflow: hidden;
       font-size: 12px;
     }
   }
-  .batman-ui__card_more-info--button{
+  .batman-ui__card_more-info--button {
     flex-direction: column;
 
-    & .batman-ui--button{
+    & .batman-ui--button {
       height: 34px;
     }
-    &>*:not(:last-child){
+    & > *:not(:last-child) {
       margin: 0;
       margin-bottom: 5px;
     }
@@ -243,5 +231,4 @@ overflow: hidden;
   .batman-ui__card_info--flex {
     height: 80%;
   }
-
 }

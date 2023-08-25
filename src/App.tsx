@@ -15,6 +15,7 @@ import "./index.css";
 import AddPost from "./Pages/AddPost";
 import ProductDetail from "./Pages/ProductDetail";
 import { Layout } from "./Pages/components";
+import Basket from "./Pages/Basket";
 
 interface DecodedToken {
   userId: string;
@@ -52,6 +53,7 @@ export const Authorised = ({ component }: any) => {
           <Route path="/" element={<Body />} />
           <Route path="/profile" element={<Profile />} />
           <Route path="/create-post" element={<AddPost />} />
+          <Route path="/basket" element={<Basket />} />
           <Route
             path={"/section/" + sectionPath}
             element={<Product name={sectionPath} />}
