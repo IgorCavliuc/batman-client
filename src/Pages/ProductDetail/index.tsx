@@ -33,7 +33,6 @@ const ProductDetail = () => {
     caption: `Image ${index + 1}`
   }));
 const characteristicsProduct =selectProduct?.detaleObject
-  // console.log(characteristicsProduct)
   return (
     <div className="batman-store__product--wallpaper">
       <div className="batman-store__product">
@@ -42,7 +41,9 @@ const characteristicsProduct =selectProduct?.detaleObject
           {/*<CarouselComponent images={selectProduct?.images} />*/}
 
           {data && data.length > 0 ? (
-            <Carousel width={"100%"} useKeyboardArrows={true} centerSlidePercentage={100} infiniteLoop={true} axis='horizontal' centerMode={true} interval={10000} autoPlay={true}>
+            <Carousel width={"100%"} useKeyboardArrows={true} centerSlidePercentage={100}
+                      // infiniteLoop={true} axis='horizontal' centerMode={true} interval={10000} autoPlay={true}
+              >
               {data.map((item:any, i:number) => (
                 <div key={i}>
                   <img src={item.image} alt={`Product ${i}`} />

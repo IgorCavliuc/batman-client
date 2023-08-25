@@ -7,14 +7,17 @@ import { IProduct } from "../../type";
 import { getAllProducts } from "../../server";
 import "./style/index.scss";
 import { ClockLoader } from "react-spinners";
+import { basketItemAdded } from "../../Redux/Basket/basket";
+
 
 interface Props {
   items: IProduct[];
   getAllProduct: (e: any) => void;
   name: string;
+  basketItemAdded:any
 }
 
-const Product = ({ items, getAllProduct, name }: Props) => {
+const Product = ({ items, getAllProduct, name, basketItemAdded }: Props) => {
   const location = useLocation();
   const [loading, setLoading] = useState(false);
 
@@ -36,7 +39,7 @@ const Product = ({ items, getAllProduct, name }: Props) => {
       <div className="batman-store_product-list-wrapper">
         {!loading ? (
           items?.map((item, i) => {
-            return <ProductCard {...item} key={i} />;
+            return <ProductCard {...item} key={i} basketItemAdded={basketItemAdded} />;
           })
         ) : (
           <div className='batman-store_product-list-wrapper--loading'>
@@ -53,4 +56,4 @@ const mapStateToProps = (state: any) => ({
   items: state?.productSlice?.items,
 });
 
-export default connect(mapStateToProps, { getAllProduct })(Product);
+export default connect(mapStateToProps, { getAllProduct, basketItemAdded })(Product);

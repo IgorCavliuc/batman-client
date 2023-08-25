@@ -7,6 +7,7 @@ import { selectPrductAction } from "../../Redux/Products/productSlice";
 import {Button} from '../'
 
 import {ImageIco, TransLike} from '../../ui/icons'
+import { basketItemAdded } from "../../Redux/Basket/basket";
 
 const ProductCard = ({
   brand,
@@ -22,13 +23,12 @@ const ProductCard = ({
   stock,
   thumbnail,
   title,
-  detaleObject
+  detaleObject,
 }: IProduct) => {
   const location = useLocation();
   const dispatch = useDispatch();
   const navigate = useNavigate();
 
-  const handleSelectProduct = useCallback(() => {
     const objectData = {
       brand,
       model,
@@ -43,11 +43,20 @@ const ProductCard = ({
       stock,
       thumbnail,
       title,
-      detaleObject
+      detaleObject,
     };
+
+
+  const handleSelectProduct = useCallback(() => {
 
     dispatch(selectPrductAction(objectData));
     navigate(location?.pathname + "/" + _id);
+// eslint-disable-next-line
+  }, []);
+
+  const handleSelectToBasket = useCallback(() => {
+
+    dispatch(basketItemAdded(objectData))
 // eslint-disable-next-line
   }, []);
   return (
@@ -98,7 +107,7 @@ const ProductCard = ({
 
       <div className="batman-ui__card_more-info batman-ui__card_more-info--button">
         <Button children="View more" onClick={handleSelectProduct} theme='transparent'/>
-        <Button children='In basket'/>
+        <Button children='In basket' onClick={handleSelectToBasket}/>
       </div>
       </div>
     </div>

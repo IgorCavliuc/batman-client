@@ -3,7 +3,8 @@ import { NavLink } from "react-router-dom";
 import { connect } from "react-redux";
 import BurgerMenu from "../../../ui/Burger";
 
-const Header = ({ user , handleMenuOpen, openMenu}: any) => {
+const Header = ({ user , handleMenuOpen, openMenu, basketItem}: any) => {
+
   return (
     <header className="rapidmd_cabinet__header">
       <div className="rapidmd_cabinet__header--burger"
@@ -29,9 +30,10 @@ const Header = ({ user , handleMenuOpen, openMenu}: any) => {
       </button>
       <button className="rapidmd_cabinet__header__basket">
         <Basket />
+        {basketItem?.length?
         <span className="rapidmd_cabinet__header__basket__length">
-          1
-        </span>
+          {basketItem?.length}
+        </span> : null}
       </button>
       <button className="rapidmd_cabinet__header__user">
         {user?.lastname?.slice(0, 1)}
